@@ -1,5 +1,5 @@
 ---
-layout: archieve
+layout: archive
 permalink: /cdmo/
 author_profile: true
 ---
