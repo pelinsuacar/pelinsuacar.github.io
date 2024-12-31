@@ -5,7 +5,7 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Projects"
+  - title: "cdmo"
     url: /cdmo/
 
   - title: "Talks"
