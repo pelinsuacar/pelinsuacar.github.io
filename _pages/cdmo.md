@@ -1,5 +1,6 @@
 ---
 layout: archive
+title: Projects
 permalink: /cdmo/
 author_profile: true
 ---
