@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: archieve
 permalink: /cdmo/
 author_profile: true
 ---
 
-## Multi-Courier Problem (MCP) Optimization
+### Multi-Courier Problem (MCP) Optimization
 
 ![](../images/cdmo.png)
 
