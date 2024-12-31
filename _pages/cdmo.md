@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Multi-Courier Problem (MCP) Optimization
+layout: archive
+title: "Projects"
+permalink: /cdmo/
+author_profile: true
 ---
 
 # Multi-Courier Problem (MCP) Optimization
