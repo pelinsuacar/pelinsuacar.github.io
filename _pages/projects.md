@@ -8,7 +8,7 @@ author_profile: true
 ### Parallelization of the Bellman-Ford Algorithm
 
 <div style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
-  <img src="../images/cuda.JPG" alt="CUDA Implementation" style="width: 45%; height: auto;" />
+  <img src="../images/cuda.JPG" alt="CUDA Implementation" style="width: 40%; height: auto;" />
   <img src="../images/openmp.JPG" alt="OpenMP Implementation" style="width: 45%; height: auto;" />
 </div>
 
@@ -29,7 +29,7 @@ Developed and compared four models—Constraint Programming (CP), Boolean Satisf
 
 ### Anti-Covid19 Systems
 
-<img src="../images/facemask.JPG" alt="Face Mask Detection" style="transform: scale(0.7);" />
+<img src="../images/facemask.JPG" alt="Face Mask Detection" style="transform: scale(0.5);" />
 
 Designed an IOT application to check the face mask and the body temperature of people using peripheral devices(temperature sensor, servo motor, LCD screen, Bluetooth module, Webcam), Arduino UNO and Raspberry Pi4. Implemented facial recognition and detected unmasked faces utilizing OpenCV. Displayed the data on the Android application and sent notifications to users.
 
@@ -38,7 +38,7 @@ Designed an IOT application to check the face mask and the body temperature of p
 ### Spoken Number Recognition System
 
 <div style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
-  <img src="../images/speechsignal.jpg" alt="speech signal" style="width: 20%; height: auto;" />
+  <img src="../images/speechsignal.jpg" alt="speech signal" style="width: 35%; height: auto;" />
   <img src="../images/spokennumberrecognition.png" alt="spoken number recognition" style="width: 45%; height: auto;" />
 </div>
 
