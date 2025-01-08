@@ -38,7 +38,7 @@ Designed an IOT application to check the face mask and the body temperature of p
 ### Spoken Number Recognition System
 
 <div style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
-  <img src="../images/speechsignal.jpg" alt="speech signal" style="width: 45%; height: auto;" />
+  <img src="../images/speechsignal.jpg" alt="speech signal" style="width: 20%; height: auto;" />
   <img src="../images/spokennumberrecognition.png" alt="spoken number recognition" style="width: 45%; height: auto;" />
 </div>
 
