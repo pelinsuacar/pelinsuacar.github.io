@@ -20,10 +20,27 @@ Developed and implemented parallelized versions of the Bellman-Ford algorithm fo
 
 ### Multi-Courier Problem (MCP) Optimization
 
-<img src="../images/cdmo.png" alt="Description of Image" style="transform: scale(0.7);" />
+<img src="../images/cdmo.png" alt="MCP" style="transform: scale(0.7);" />
 
 Developed and compared four models—Constraint Programming (CP), Boolean Satisfiability (SAT), Satisfiability Modulo Theories (SMT), and Mixed-Integer Programming (MIP)—to optimize courier assignment and routing for minimizing total travel distance. Utilized standard Vehicle Routing Problem methodologies, including successor matrix and predecessor array approaches. Achieved optimal solutions for small-scale instances (e.g. 10 couriers, 13 instances) and identified limitations in SAT and SMT for larger instances. Demonstrated proficiency in mathematical modeling, problem-solving, and optimization techniques.
   
 [GitHub Repository](https://github.com/pelinsuacar/CDMO_Project)  
 [View Report (PDF)](https://github.com/pelinsuacar/CDMO_Project/blob/main/CDMO_Project_Report.pdf)
+
+### Anti-Covid19 Systems
+
+<img src="../images/facemask.JPG" alt="Face Mask Detection" style="transform: scale(0.7);" />
+
+Designed an IOT application to check the face mask and the body temperature of people using peripheral devices(temperature sensor, servo motor, LCD screen, Bluetooth module, Webcam), Arduino UNO and Raspberry Pi4. Implemented facial recognition and detected unmasked faces utilizing OpenCV. Displayed the data on the Android application and sent notifications to users.
+
+[Video Link](https://www.youtube.com/watch?v=Hjg5IJv0Vv4) 
+
+### Spoken Number Recognition System
+
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
+  <img src="../images/speechsignal.jpg" alt="speech signal" style="width: 45%; height: auto;" />
+  <img src="../images/spokennumberrecognition.png" alt="spoken number recognition" style="width: 45%; height: auto;" />
+</div>
+
+Designed a spoken number recognition system on Vivado using Basys3 and some analog components. Designed a PCB for the filtering and amplification of speech signals. Utilized the internal ADC of Basys3 for sampling. Implemented a hamming window, FFT, and MFCC algorithms in Vivado and displayed the recognized number on 7-segment display. 
 
