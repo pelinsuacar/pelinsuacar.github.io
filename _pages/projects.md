@@ -53,6 +53,23 @@ Developed and compared four models—Constraint Programming (CP), Boolean Satisf
 [GitHub Repository](https://github.com/pelinsuacar/CDMO_Project)  
 [View Report (PDF)](https://github.com/pelinsuacar/CDMO_Project/blob/main/CDMO_Project_Report.pdf)
 
+### Statistical and Mathematical Methods for Artificial Intelligence Homeworks
+
+We were assigned 4 different homeworks throughout the semester. The topics of each task and the relevant repository links are as follows:
+
+1) Linear Algebra and Floating Point Arithmetic
+[Description](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW1_Linear_Algebra_Floating_Point.pdf)  
+[Code](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW1_Statistical_and_Math_Exam.ipynb)
+2) Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA)
+[Description](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW2_PCA_LDA.pdf)  
+[Code](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW2_Statistical_and_Math_Exam.ipynb)
+3) Optimization via Stochastic Gradient Descent
+[Description](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW3_Optimization_GD.pdf)  
+[Code](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW3_Statistical_and_Math_Exam.ipynb)
+4) Maximum Likelihood Estimation (MLE) and Maximum a Posteriori (MAP)
+[Description](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW4_MLA_MPA.pdf)  
+[Code](https://github.com/pelinsuacar/statistical_and_math_methods_for_AI_HW/blob/main/HW4_Statistical_and_Math_Exam.ipynb)
+
 ### Anti-Covid19 Systems
 
 <img src="../images/facemask.JPG" alt="Face Mask Detection" style="transform: scale(0.5);" />
