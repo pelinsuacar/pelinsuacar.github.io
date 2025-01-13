@@ -14,3 +14,9 @@ author_profile: true
 
 ![Azure Data Fundamentals Badge](/images/azure_badge.png)
 
+### [GRE-General](https://www.ets.org/gre/test-takers.html?utm_agency=ege003&utm_source=google&utm_medium=ppc&utm_camptype=acq&utm_campaign=gre-b2c-0422_0923-mes-ppc-ege003-acq-search&utm_country=mes&gad_source=1&gclid=Cj0KCQiAkJO8BhCGARIsAMkswyiOc52qhqRTkzGeFo8cbM2nG4rPyzTU_1fLmeCBjXYoHx47t7n5GtAaAn6MEALw_wcB)
+**Issued by**: ETS   
+**Date Earned**: December 22, 2021   
+**Quantitative Reasoning**: 167/170
+
+<img src="../images/GRE_logo.png" alt="gre logo" style="width: 50%; height: auto;" />
