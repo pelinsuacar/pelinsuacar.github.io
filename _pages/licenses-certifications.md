@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Licenses & Certifications"
-permalink: /licenses_certifications/
+permalink: /licenses-certifications/
 author_profile: true
 ---
 
