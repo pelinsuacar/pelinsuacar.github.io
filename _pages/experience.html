@@ -1,1 +1,120 @@
+<style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+      .timeline {
+          position: relative;
+          margin: 20px 0;
+          padding: 0;
+          list-style: none;
+      }
+      .timeline::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 30px;
+          width: 2px;
+          background: #d1d5db;
+      }
+      .timeline-item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 30px;
+          position: relative;
+      }
+      .timeline-item::before {
+          content: '';
+          position: absolute;
+          left: 22px;
+          top: 0;
+          width: 16px;
+          height: 16px;
+          background: #fff;
+          border: 2px solid #3b82f6;
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .timeline-content {
+          background: #fff;
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          padding: 15px 20px;
+          margin-left: 60px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          max-width: 600px;
+          position: relative;
+      }
+      .timeline-content h3 {
+          margin: 0 0 5px;
+          font-size: 18px;
+          color: #1f2937;
+      }
+      .timeline-content h4 {
+          margin: 0;
+          font-size: 16px;
+          font-weight: 500;
+          color: #6b7280;
+      }
+      .timeline-content p {
+          margin: 10px 0 0;
+          color: #4b5563;
+      }
+  </style>
+</head>
+<body>
+  <ul class="timeline">
+      <!-- CNH INDUSTRIAL BELGIUM NV -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Master’s Thesis Student</h3>
+              <h4>CNH INDUSTRIAL BELGIUM NV · Mar 2024 – Dec 2024</h4>
+              <p>Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment. Evaluated state-of-the-art models (OWLv2 and YOLO-World) using advanced query embedding techniques (CLIP, DINOv2) and prompt tuning, analyzing the impact of pre-processing strategies and expanded datasets on detection performance. This work highlights key challenges and advancements in adapting ZSOD models for domain-specific agricultural systems.</p>
+          </div>
+      </li>
 
+      <!-- MLPS AD -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Intern</h3>
+              <h4>MLPS AD · Summer 2024 (Remote)</h4>
+              <p>Developed a license plate recognition system as part of an internship, leveraging OpenCV for image processing and Tesseract OCR for text extraction to accurately detect and recognize alphanumeric characters. Implemented a BRISQUE-based no-reference image quality assessment system using Python, leveraging OpenCV, SciPy, and libSVM to calculate quality scores and identify the best-quality images from a user-provided dataset. Implemented object detection using a pre-trained SSD MobileNet model, enhanced with Grad-CAM for class activation visualization, and developed a color detection pipeline leveraging K-Means clustering and RGB matching for precise feature-based analysis.</p>
+          </div>
+      </li>
+
+      <!-- NTT DATA Business Solutions -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Junior Big Data Engineer</h3>
+              <h4>NTT DATA Business Solutions · Dec 2021 – Aug 2022 · Istanbul, Turkey</h4>
+              <p>Worked at the Data Platforms Group Management Department and took part in the DMP project of ZF Global as a data engineering consultant. Successfully designed and implemented data transformation scripts using PySpark and SQL through Databricks and Synapse. Integrated new source systems (manufacturing execution systems) into a common unified data model, improving data consistency and reliability for the serving layer, which is an angular app + PowerBI report showing OEE for respective plant. Followed CI/CD principles and maintained development, staging, and production environments for the product. Ensured the stability of the product through bug fixing and performance improvements.</p>
+          </div>
+      </li>
+
+      <!-- HAVELSAN -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Candidate Engineer</h3>
+              <h4>HAVELSAN · Mar 2021 – Dec 2021 · Ankara, Turkey</h4>
+              <p>Worked as a system engineer at the Robotic and Autonomous Systems Department. Worked on the autonomous ground vehicle project (BARKAN) and managed part of its network design. Implemented VLAN tagging, GRE tunnel, and OSPF protocol that work on Linux platforms using Quagga software to remove layer-3 switch dependency. Tested the whole system using Teltonika-Rut955 LTE Router, Microhard OEM Wireless Digital Data Link, and Robustel-R3000 Router.</p>
+          </div>
+      </li>
+
+      <!-- HAVELSAN Internship -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Intern</h3>
+              <h4>HAVELSAN · Summer 2020 · Ankara, Turkey</h4>
+              <p>Worked at the Robotic and Autonomous Systems Department. Implemented OSPF protocol for mesh networks on Cisco Packet Tracer and tested link failures. Attended training sessions: Project Management, Subtleties of Test Engineering, The Entrepreneur Within, Effective Business Correspondence and Official Correspondence, Information Security Awareness, Cyber Threats And Alerts, Occupational Health And Safety.</p>
+          </div>
+      </li>
+
+      <!-- ROKETSAN -->
+      <li class="timeline-item">
+          <div class="timeline-content">
+              <h3>Intern</h3>
+              <h4>ROKETSAN · Summer 2019 · Ankara, Turkey</h4>
+              <p>Worked at the Launching System Design Department. Implemented an UART communication protocol to control the accuracy of incoming messages and to send a specific message for each as a response. Worked on Vivado using VHDL, tested on PicoZed FMC Carrier Card.</p>
+          </div>
+      </li>
+  </ul>
