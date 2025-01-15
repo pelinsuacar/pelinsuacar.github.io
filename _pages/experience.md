@@ -5,7 +5,7 @@ permalink: /experience/
 author_profile: true
 ---
 
-## ![CNH Logo](images/cnh.jpg) Master’s Thesis Student
+## ![CNH Logo](../images/cnh.jpg) Master’s Thesis Student
 **CNH INDUSTRIAL BELGIUM NV**  
 March 2024 – December 2024 · Belgium  
 Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment. Evaluated state-of-the-art models (OWLv2 and YOLO-World) using advanced query embedding techniques (CLIP, DINOv2) and prompt tuning, analyzing the impact of pre-processing strategies and expanded datasets on detection performance. This work highlights key challenges and advancements in adapting ZSOD models for domain-specific agricultural systems.
@@ -21,7 +21,7 @@ August 2023 - September 2023
 
 ---
 
-## ![NTT DATA Logo](images/ntt-data.png) Junior Big Data Engineer
+## ![NTT DATA Logo](../images/ntt-data.png) Junior Big Data Engineer
 **NTT DATA Business Solutions**  
 December 2021 – August 2022 · Istanbul, Turkey  
 - Worked on the DMP project for ZF Global as a data engineering consultant.
@@ -35,7 +35,7 @@ December 2021 – August 2022 · Istanbul, Turkey
 
 ---
 
-## ![HAVELSAN Logo](images/havelsan.png) Candidate Engineer
+## ![HAVELSAN Logo](../images/havelsan.png) Candidate Engineer
 **HAVELSAN**  
 March 2021 – December 2021 · Ankara, Turkey  
 - Contributed to the autonomous ground vehicle project (BARKAN), focusing on network design.
@@ -43,7 +43,7 @@ March 2021 – December 2021 · Ankara, Turkey
 
 ---
 
-## ![HAVELSAN Logo](images/havelsan.png) Summer Intern
+## ![HAVELSAN Logo](../images/havelsan.png) Summer Intern
 **HAVELSAN**  
 Summer 2020  
 - Worked at the Robotic and Autonomous Systems Department
@@ -52,7 +52,7 @@ Summer 2020
 
 ---
 
-## ![ROKETSAN Logo](images/roketsan.jpg) Summer Intern
+## ![ROKETSAN Logo](../images/roketsan.jpg) Summer Intern
 **ROKETSAN**  
 Summer 2019 · Ankara, Turkey  
 - Worked at the Launching System Design Department.
