@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://nttdata-solutions.com/tr/" target="_blank">
-    <img src="../images/ntt-data.png" alt="NTT DATA Logo" class="company-logo">
+    <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo">
   </a>
   <div>
     <h2 class="position-title">Junior Big Data Engineer</h2>
