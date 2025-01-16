@@ -16,7 +16,7 @@ author_profile: true
       <a href="https://www.cnh.com" target="_blank">CNH INDUSTRIAL BELGIUM NV</a>
     </p>
     <p class="explanation">
-      - Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment. 
+      - Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.<br> 
       - Evaluated state-of-the-art models (OWLv2 and YOLO-World) using advanced query embedding techniques (CLIP, DINOv2) and prompt tuning, analyzing the impact of pre-processing strategies and expanded datasets on detection performance. 
     </p>
   </div>
@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://nttdata-solutions.com/tr/" target="_blank">
-    <img src="../images/ntt-data1.png" alt="NTT DATA Logo" class="company-logo">
+    <img src="../images/ntt-data.png" alt="NTT DATA Logo" class="company-logo">
   </a>
   <div>
     <h2 class="position-title">Junior Big Data Engineer</h2>
