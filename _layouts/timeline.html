@@ -1,52 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      padding: 20px;
-      line-height: 1.6;
-    }
+---
+layout: default
+---
 
-    .timeline {
-      position: relative;
-      list-style: none;
-      margin: 20px 0;
-      padding: 0;
-    }
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
-    .timeline-item {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 30px;
-      position: relative;
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-    .timeline-item h2 {
-      margin: 0;
-      font-size: 20px;
-      color: #1f2937;
-    }
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-    .timeline-item p {
-      margin-top: 5px;
-      color: #4b5563;
-    }
-  </style>
-</head>
-<body>
-  <div class="timeline">
-    {{ content }}
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    <div class="timeline">
+      {{ content }}
+    </div>
   </div>
-</body>
-</html>
+</div>
