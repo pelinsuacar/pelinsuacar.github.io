@@ -9,7 +9,7 @@ main:
     url: /projects/
 
   - title: "Experience"
-    url: /experience.html
+    url: /experience/
     
   - title: "Portfolio"
     url: /portfolio/
