@@ -6,13 +6,18 @@ author_profile: true
 ---
 
 <div class="timeline-item">
-  <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo">
+  <a href="https://www.cnh.com" target="_blank">
+    <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo">
+  </a>
   <div>
     <h2 class="position-title">Master’s Thesis Student</h2>
     <p class="dates-location">March 2024 – December 2024 · Belgium</p>
-    <p class="company-name">CNH INDUSTRIAL BELGIUM NV</p>
+    <p class="company-name">
+      <a href="https://www.cnh.com" target="_blank">CNH INDUSTRIAL BELGIUM NV</a>
+    </p>
     <p class="explanation">
-      Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment. Evaluated state-of-the-art models (OWLv2 and YOLO-World) using advanced query embedding techniques (CLIP, DINOv2) and prompt tuning, analyzing the impact of pre-processing strategies and expanded datasets on detection performance. This work highlights key challenges and advancements in adapting ZSOD models for domain-specific agricultural systems.
+      - Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment. 
+      - Evaluated state-of-the-art models (OWLv2 and YOLO-World) using advanced query embedding techniques (CLIP, DINOv2) and prompt tuning, analyzing the impact of pre-processing strategies and expanded datasets on detection performance. 
     </p>
   </div>
 </div>
@@ -20,11 +25,15 @@ author_profile: true
 ---
 
 <div class="timeline-item">
-  <img src="../images/ntt-data.png" alt="NTT DATA Logo" class="company-logo">
+  <a href="https://nttdata-solutions.com/tr/" target="_blank">
+    <img src="../images/ntt-data1.png" alt="NTT DATA Logo" class="company-logo">
+  </a>
   <div>
     <h2 class="position-title">Junior Big Data Engineer</h2>
     <p class="dates-location">December 2021 – August 2022 · Istanbul, Turkey</p>
-    <p class="company-name">NTT DATA Business Solutions</p>
+    <p class="company-name">
+      <a href="https://nttdata-solutions.com/tr/" target="_blank">NTT DATA Business Solutions</a>
+    </p>
     <p class="explanation">
       - Worked on the DMP project for ZF Global as a data engineering consultant.<br>
       - Designed and implemented data transformation scripts with PySpark and SQL through Databricks and Synapse.<br>
@@ -40,11 +49,15 @@ author_profile: true
 ---
 
 <div class="timeline-item">
-  <img src="../images/havelsan.png" alt="HAVELSAN Logo" class="company-logo">
+  <a href="https://www.havelsan.com/en" target="_blank">
+    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo">
+  </a>
   <div>
     <h2 class="position-title">Candidate Engineer</h2>
     <p class="dates-location">March 2021 – December 2021 · Ankara, Turkey</p>
-    <p class="company-name">HAVELSAN</p>
+    <p class="company-name">
+      <a href="https://www.havelsan.com/en" target="_blank">HAVELSAN</a>
+    </p>
     <p class="explanation">
       - Contributed to the autonomous ground vehicle project (BARKAN), focusing on network design.<br>
       - Implemented VLAN tagging, GRE tunnel, and OSPF protocol on Linux using Quagga software.
@@ -55,11 +68,15 @@ author_profile: true
 ---
 
 <div class="timeline-item">
-  <img src="../images/havelsan.png" alt="HAVELSAN Logo" class="company-logo">
+  <a href="https://www.havelsan.com/en" target="_blank">
+    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo">
+  </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2020</p>
-    <p class="company-name">HAVELSAN</p>
+    <p class="company-name">
+      <a href="https://www.havelsan.com/en" target="_blank">HAVELSAN</a>
+    </p>
     <p class="explanation">
       - Worked at the Robotic and Autonomous Systems Department.<br>
       - Implemented OSPF protocol for mesh networks on Cisco Packet Tracer.<br>
@@ -71,11 +88,15 @@ author_profile: true
 ---
 
 <div class="timeline-item">
-  <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo">
+  <a href="https://www.roketsan.com.tr/en" target="_blank">
+    <img src="../images/roketsan1.jpg" alt="ROKETSAN Logo" class="company-logo">
+  </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2019 · Ankara, Turkey</p>
-    <p class="company-name">ROKETSAN</p>
+    <p class="company-name">
+      <a href="https://www.roketsan.com.tr/en" target="_blank">ROKETSAN</a>
+    </p>
     <p class="explanation">
       - Worked at the Launching System Design Department.<br>
       - Implemented UART communication protocol using VHDL on Vivado and tested on PicoZed FMC Carrier Card.
