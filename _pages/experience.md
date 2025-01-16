@@ -1,4 +1,9 @@
-# Experience
+---
+layout: timeline
+title: Experience
+permalink: /experience/
+author_profile: true
+---
 
 ## ![CNH Logo](../images/cnh.jpg) Master’s Thesis Student
 **CNH INDUSTRIAL BELGIUM NV**  
