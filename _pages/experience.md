@@ -89,7 +89,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.roketsan.com.tr/en" target="_blank">
-    <img src="../images/roketsan1.jpg" alt="ROKETSAN Logo" class="company-logo">
+    <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo">
   </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
