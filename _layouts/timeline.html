@@ -25,3 +25,58 @@ layout: default
     </div>
   </div>
 </div>
+
+<style>
+  .timeline {
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Company logo */
+  .timeline-item .company-logo {
+    width: 40px; /* Fixed size for logos */
+    height: 40px;
+    object-fit: contain;
+    margin-right: 15px; /* Space between logo and text */
+  }
+
+  .timeline-item h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B5563; /* Grey color for position title */
+  }
+
+  .timeline-item .position-title {
+    font-weight: bold;
+    color: #4B5563; /* Grey for position title */
+  }
+
+  .timeline-item .dates-location {
+    font-size: 14px;
+    color: #6B7280; /* Grey for dates and location */
+  }
+
+  .timeline-item .company-name {
+    font-size: 16px;
+    color: #1F2937; /* Black for company name */
+  }
+
+  .timeline-item .explanation {
+    color: #1F2937; /* Black for the explanation */
+    margin-top: 10px;
+  }
+</style>
