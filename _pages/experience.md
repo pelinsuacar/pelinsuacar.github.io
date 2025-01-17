@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.cnh.com" target="_blank">
-    <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 100px; height: 60px; !important;">
+    <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Master’s Thesis Student</h2>
@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://nttdata-solutions.com/tr/" target="_blank">
-    <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo" style="width: 100px; height: 60px; !important;">
+    <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Junior Big Data Engineer</h2>
@@ -50,7 +50,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 100px; height: 60px; !important;">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Candidate Engineer</h2>
@@ -69,7 +69,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 100px; height: 60px; !important;">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
@@ -89,7 +89,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.roketsan.com.tr/en" target="_blank">
-    <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo" style="width: 100px; height: 60px; !important;">
+    <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
