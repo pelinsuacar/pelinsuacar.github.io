@@ -50,7 +50,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Candidate Engineer</h2>
@@ -69,7 +69,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
