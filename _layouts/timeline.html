@@ -47,11 +47,14 @@ layout: default
 
   /* Company logo */
   .timeline-item .company-logo {
-    width: 145px; /* Fixed size for logos */
-    height: 60px;
-    object-fit: contain;
+    width: 145px !important;
+    height: 60px !important;
+    max-width: none;
+    max-height: none;
+    object-fit: none;
     margin-right: 20px; /* Space between logo and text */
-  }
+}
+
 
   .timeline-item h2 {
     margin: 0;
@@ -77,6 +80,7 @@ layout: default
 
   .timeline-item .explanation {
     color: #1F2937; /* Black for the explanation */
-    margin-top: 8px;
+    font-size: 14px;
+    margin-top: 10px;
   }
 </style>
