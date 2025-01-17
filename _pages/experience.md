@@ -50,7 +50,7 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Candidate Engineer</h2>
@@ -69,18 +69,18 @@ author_profile: true
 
 <div class="timeline-item">
   <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan1.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
   <div>
     <h2 class="position-title">Summer Intern</h2>
-    <p class="dates-location">Summer 2020</p>
+    <p class="dates-location">Summer 2020 · Ankara, Turkey</p>
     <p class="company-name">
       <a href="https://www.havelsan.com/en" target="_blank">HAVELSAN</a>
     </p>
     <p class="explanation">
       - Worked at the Robotic and Autonomous Systems Department.<br>
       - Implemented OSPF protocol for mesh networks on Cisco Packet Tracer.<br>
-      - Attended training sessions on project management, test engineering, and cybersecurity.
+      - Attended training sessions on project management, test engineering, and cyber security.
     </p>
   </div>
 </div>
