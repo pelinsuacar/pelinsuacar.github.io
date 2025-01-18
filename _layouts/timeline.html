@@ -34,6 +34,17 @@ layout: default
     padding: 0;
   }
 
+  /* Vertical line on the left of the timeline */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px; /* Position of the line */
+    width: 2px; /* Line thickness */
+    height: 100%;
+    background: #D1D5DB; /* Light grey color for the line */
+  }
+
   .timeline-item {
     display: flex;
     align-items: flex-start;
@@ -45,10 +56,23 @@ layout: default
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-/* Add shadow to the box when hovering over it */
-.timeline-item:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
+  /* Add shadow to the box when hovering over it */
+  .timeline-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Left dot and connecting line for each timeline item */
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px; /* Position the dot vertically relative to the item */
+    left: 23px; /* Align with the main timeline line */
+    width: 10px; /* Dot size */
+    height: 10px; /* Dot size */
+    background: #4B5563; /* Dark grey for the dot */
+    border-radius: 50%; /* Make it a circle */
+    z-index: 1;
+  }
 
   /* Company logo */
   .timeline-item .company-logo {
@@ -58,8 +82,7 @@ layout: default
     max-height: none;
     object-fit: none;
     margin-right: 20px; /* Space between logo and text */
-}
-
+  }
 
   .timeline-item h2 {
     margin: 0;
