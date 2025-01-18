@@ -39,7 +39,7 @@ layout: default
     content: '';
     position: absolute;
     top: 0;
-    left: 40px; /* Center of the line */
+    left: 50px; /* Adjust the line position */
     width: 2px; /* Line thickness */
     height: 100%;
     background: #D1D5DB; /* Light grey color for the line */
@@ -51,7 +51,7 @@ layout: default
     margin-bottom: 30px;
     position: relative;
     background: white;
-    margin-left: 70px; /* Position the box away from the line */
+    margin-left: 80px; /* Position the box away from the line */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -66,10 +66,11 @@ layout: default
   .timeline-item::before {
     content: '';
     position: absolute;
-    top: 20px; /* Position the dot vertically relative to the item */
-    left: 35px; /* Align the dot with the center of the vertical line */
-    width: 16px; /* Increased dot size */
-    height: 16px; /* Increased dot size */
+    top: 50%; /* Vertically center the dot relative to the item */
+    left: 49px; /* Align the dot with the line */
+    transform: translateY(-50%); /* Perfect centering */
+    width: 16px; /* Dot size */
+    height: 16px; /* Dot size */
     background: #4B5563; /* Dark grey for the dot */
     border-radius: 50%; /* Make it a circle */
   }
@@ -112,4 +113,3 @@ layout: default
     margin-top: 10px;
   }
 </style>
-
