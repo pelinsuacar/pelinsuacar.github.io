@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    <div class="timeline">
+      {{ content }}
+    </div>
+  </div>
+</div>
+<style>
+    body {
+      background-color: #F3F4F6; /* Light grey background */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .projects {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .projects-title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #4B5563; /* Dark grey */
+      margin-bottom: 40px;
+    }
+
+    .project-item {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .project-item img {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .project-content h2 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+      color: #1F2937; /* Dark grey */
+    }
+
+    .project-content p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #6B7280; /* Grey */
+    }
+
+    .project-content a {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 16px;
+      color: #3B82F6; /* Blue */
+      text-decoration: none;
+    }
+
+    .project-content a:hover {
+      text-decoration: underline;
+    }
+  </style>
