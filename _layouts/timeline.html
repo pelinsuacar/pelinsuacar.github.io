@@ -34,15 +34,17 @@ layout: default
     padding: 0;
   }
 
-  /* Vertical line on the left of the timeline */
-  .timeline::before {
+
+  /* Left dot for each timeline item */
+  .timeline-item::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 30px; /* Position of the line */
-    width: 2px; /* Line thickness */
-    height: 100%;
-    background: #D1D5DB; /* Light grey color for the line */
+    top: 20px; /* Position the dot vertically relative to the item */
+    left: 15px; /* Align the dot with the vertical line */
+    width: 10px; /* Dot size */
+    height: 10px; /* Dot size */
+    background: #4B5563; /* Dark grey for the dot */
+    border-radius: 50%; /* Make it a circle */
   }
 
   .timeline-item {
