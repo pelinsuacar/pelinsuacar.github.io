@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: project
 title: Projects
 permalink: /projects/
 author_profile: true
