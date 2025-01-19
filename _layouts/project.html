@@ -61,14 +61,18 @@ layout: default
     margin: 40px 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
-  
+
   .category-bar {
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers the buttons horizontally */
-    align-items: center; /* Aligns the buttons vertically */
-    gap: 10px; /* Adds space between buttons */
-    margin-bottom: 20px; /* Space below the bar */
-  }
+  display: flex; /* Align buttons in a row */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Align buttons vertically */
+  margin-top: 10px; /* Space between the title and the bar */
+  margin-bottom: 20px; /* Space between the bar and the project boxes */
+  padding: 10px; /* Add some padding for a better look */
+  background-color: #f9f9f9; /* Optional: Light background for the bar */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for the bar */
+}
 
   .category-btn {
     font-size: 14px;
