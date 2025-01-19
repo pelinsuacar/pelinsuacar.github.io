@@ -15,9 +15,12 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="projects">
+  <!-- Container for Title and Category Bar -->
+  <div class="projects-container">
+    <!-- Title -->
     <h1 class="projects-title">{{ page.title }}</h1>
 
+    <!-- Category Bar -->
     <div class="category-bar">
       <button class="category-button active" onclick="filterProjects('all')">All</button>
       <button class="category-button" onclick="filterProjects('nlp')">NLP</button>
@@ -27,8 +30,10 @@ layout: default
       <button class="category-button" onclick="filterProjects('iot')">IoT</button>
       <button class="category-button" onclick="filterProjects('parallel-computing')">Parallel Computing</button>
     </div>
+  </div>
 
-
+  <!-- Projects Grid -->
+  <div class="projects">
     <div class="projects-grid">
       {{ content }}
     </div>
@@ -43,38 +48,35 @@ layout: default
     padding: 0;
   }
 
-  .projects {
-    width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-    display: grid; /* Use CSS Grid */
-    grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
-    gap: 20px; /* Add space between items */
+  /* Projects Container */
+  .projects-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center content horizontally */
   }
 
   .projects-title {
     text-align: center;
-    grid-column: span 2; /* Ensure the title spans across all columns */
     font-size: 40px;
     font-weight: bold;
     color: #4B5563; /* Dark grey */
-    margin: 40px 0 40px; /* Add sufficient margin above and below */
+    margin: 40px 0 20px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
 
+  /* Category Bar */
   .category-bar {
-  display: flex; /* Align buttons in a row */
-  justify-content: center; /* Center the buttons horizontally */
-  align-items: center; /* Align buttons vertically */
-  margin-top: 10px; /* Space between the title and the bar */
-  margin-bottom: 20px; /* Space between the bar and the project boxes */
-  padding: 10px; /* Add some padding for a better look */
-  background-color: #f9f9f9; /* Optional: Light background for the bar */
-  border-radius: 8px; /* Optional: Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for the bar */
-}
+    display: flex; /* Align buttons in a row */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Align buttons vertically */
+    margin-top: 10px; /* Space between the title and the bar */
+    margin-bottom: 20px; /* Space between the bar and the project boxes */
+    padding: 10px; /* Add some padding for a better look */
+    background-color: #f9f9f9; /* Optional: Light background for the bar */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for the bar */
+  }
 
-  .category-btn {
+  .category-button {
     font-size: 14px;
     font-weight: bold;
     color: #4B5563;
@@ -82,16 +84,32 @@ layout: default
     border: 1px solid #D1D5DB;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 5px; /* Add spacing between buttons */
+    padding: 8px 16px; /* Add padding for a better button look */
     transition: all 0.3s ease;
   }
 
-  .category-btn:hover,
-  .category-btn.active {
+  .category-button:hover,
+  .category-button.active {
     background-color: #3B82F6;
     color: white;
     border-color: #3B82F6;
   }
 
+  /* Projects Grid */
+  .projects {
+    max-width: 800px;
+    margin: 20px auto; /* Center the project grid */
+    padding: 0 20px;
+  }
+
+  .projects-grid {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
+    gap: 20px; /* Add space between items */
+  }
+
+  /* Project Items */
   .project-item {
     background: white;
     border: 2px solid #E5E7EB; /* Light grey border */
@@ -139,18 +157,18 @@ layout: default
     border-radius: 4px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
     transition: all 0.3s ease; /* Smooth hover effect */
-}
+  }
 
-.project-content a:hover {
+  .project-content a:hover {
     background-color: #3B82F6; /* Blue background on hover */
     color: white; /* White text on hover */
     text-decoration: none;
-}
-
+  }
 </style>
+
 <script>
   // JavaScript for filtering projects
-  const buttons = document.querySelectorAll(".category-btn");
+  const buttons = document.querySelectorAll(".category-button");
   const projects = document.querySelectorAll(".project-item");
 
   buttons.forEach((button) => {
@@ -162,7 +180,7 @@ layout: default
       button.classList.add("active");
 
       // Get selected category
-      const category = button.getAttribute("data-category");
+      const category = button.getAttribute("onclick").split("('")[1].split("')")[0];
 
       // Show/hide projects based on category
       projects.forEach((project) => {
@@ -175,4 +193,3 @@ layout: default
     });
   });
 </script>
-
