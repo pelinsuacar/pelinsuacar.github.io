@@ -18,16 +18,16 @@ layout: default
   <div class="projects">
     <h1 class="projects-title">{{ page.title }}</h1>
 
-    <!-- Category Filter Bar -->
     <div class="category-bar">
-      <button class="category-btn" data-category="all">All</button>
-      <button class="category-btn" data-category="nlp">NLP</button>
-      <button class="category-btn" data-category="computer-vision">Computer Vision</button>
-      <button class="category-btn" data-category="optimization">Optimization</button>
-      <button class="category-btn" data-category="signal-processing">Signal Processing</button>
-      <button class="category-btn" data-category="iot">IoT</button>
-      <button class="category-btn" data-category="parallel-computing">Parallel Computing</button>
+      <button class="category-button active" onclick="filterProjects('all')">All</button>
+      <button class="category-button" onclick="filterProjects('nlp')">NLP</button>
+      <button class="category-button" onclick="filterProjects('computer-vision')">Computer Vision</button>
+      <button class="category-button" onclick="filterProjects('optimization')">Optimization</button>
+      <button class="category-button" onclick="filterProjects('signal-processing')">Signal Processing</button>
+      <button class="category-button" onclick="filterProjects('iot')">IoT</button>
+      <button class="category-button" onclick="filterProjects('parallel-computing')">Parallel Computing</button>
     </div>
+
 
     <div class="projects-grid">
       {{ content }}
@@ -61,12 +61,13 @@ layout: default
     margin: 40px 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
-
-   .category-bar {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-below: 120px;
-    flex-wrap: wrap; /* Ensures buttons wrap if they overflow */
+  
+  .category-bar {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Aligns the buttons vertically */
+    gap: 10px; /* Adds space between buttons */
+    margin-bottom: 20px; /* Space below the bar */
   }
 
   .category-btn {
