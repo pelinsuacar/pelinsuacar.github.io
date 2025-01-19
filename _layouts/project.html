@@ -43,7 +43,6 @@ layout: default
 
   .projects-title {
     grid-column: span 2; /* Ensure the title spans across all columns */
-    text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: #4B5563; /* Dark grey */
@@ -69,7 +68,6 @@ layout: default
 
   .project-content {
     padding: 20px;
-    text-align: center;
   }
 
   .project-content h2 {
@@ -86,16 +84,26 @@ layout: default
   }
 
   .project-content a {
-    display: inline-block;
+    display: inline-block; /* Ensures the box adjusts to the content */
     margin-top: 10px;
-    font-size: 12px;
-    color: #3B82F6; /* Blue */
-    text-decoration: none;
-  }
+    margin-right: 10px; /* Adds spacing between multiple links */
+    padding: 8px 16px; /* Space inside the box */
+    font-size: 14px;
+    font-weight: bold;
+    color: #3B82F6; /* Blue color for text */
+    background-color: #F3F4F6; /* Light grey background */
+    border: 2px solid #3B82F6; /* Blue border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
 
-  .project-content a:hover {
-    text-decoration: underline;
-  }
+.project-content a:hover {
+    background-color: #3B82F6; /* Blue background on hover */
+    color: white; /* White text on hover */
+    text-decoration: none;
+}
+
 </style>
 
 
