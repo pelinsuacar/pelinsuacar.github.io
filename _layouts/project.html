@@ -62,6 +62,34 @@ layout: default
     padding-top: 20px; /* Add padding in case of header overlap */
   }
 
+   .category-bar {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex; /* Enables horizontal layout */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds spacing between buttons */
+    flex-wrap: wrap; /* Ensures buttons wrap if they overflow */
+  }
+
+  .category-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4B5563;
+    background-color: #F3F4F6;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .category-btn:hover,
+  .category-btn.active {
+    background-color: #3B82F6;
+    color: white;
+    border-color: #3B82F6;
+  }
+
   .project-item {
     background: white;
     border: 2px solid #E5E7EB; /* Light grey border */
@@ -118,5 +146,31 @@ layout: default
 }
 
 </style>
+<script>
+  // JavaScript for filtering projects
+  const buttons = document.querySelectorAll(".category-btn");
+  const projects = document.querySelectorAll(".project-item");
 
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove active class from all buttons
+      buttons.forEach((btn) => btn.classList.remove("active"));
+
+      // Add active class to clicked button
+      button.classList.add("active");
+
+      // Get selected category
+      const category = button.getAttribute("data-category");
+
+      // Show/hide projects based on category
+      projects.forEach((project) => {
+        if (category === "all" || project.getAttribute("data-category") === category) {
+          project.style.display = "block";
+        } else {
+          project.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
 
