@@ -42,11 +42,13 @@ layout: default
   }
 
   .projects-title {
+    text-align: center;
     grid-column: span 2; /* Ensure the title spans across all columns */
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     color: #4B5563; /* Dark grey */
-    margin-bottom: 40px;
+    margin: 40px 0 40px; /* Add sufficient margin above and below */
+    padding-top: 20px; /* Add padding in case of header overlap */
   }
 
   .project-item {
@@ -87,8 +89,8 @@ layout: default
     display: inline-block; /* Ensures the box adjusts to the content */
     margin-top: 10px;
     margin-right: 10px; /* Adds spacing between multiple links */
-    padding: 8px 16px; /* Space inside the box */
-    font-size: 14px;
+    padding: 4px 12px; /* Space inside the box */
+    font-size: 10px;
     font-weight: bold;
     color: #3B82F6; /* Blue color for text */
     background-color: #F3F4F6; /* Light grey background */
