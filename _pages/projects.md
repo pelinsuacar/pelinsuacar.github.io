@@ -6,7 +6,7 @@ permalink: /projects/
 
 <div class="projects">
 
-  <div class="project-item">
+  <div class="project-item" data-category="computer-vision">
     <img src="../images/mlcv.JPG" alt="One/Zero Shot Vehicle Detection">
     <div class="project-content">
       <h2>One/Zero Shot Vehicle Detection on Satellite Images using Image/Text Queries</h2>
@@ -16,7 +16,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="parallel-computing">
     <img src="../images/cudavsopenmp.JPG" alt="Parallelization of the Bellman-Ford Algorithm">
     <div class="project-content">
       <h2>Parallelization of the Bellman-Ford Algorithm</h2>
@@ -26,7 +26,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="optimization">
     <img src="../images/cdmo.png" alt="Multi-Courier Problem (MCP) Optimization">
     <div class="project-content">
       <h2>Multi-Courier Problem (MCP) Optimization</h2>
@@ -36,7 +36,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="computer-vision iot">
     <img src="../images/facemask.JPG" alt="Anti-Covid19 Systems">
     <div class="project-content">
       <h2>Anti-Covid19 Systems</h2>
@@ -45,7 +45,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="signal-processing">
     <img src="../images/number_recognition.JPG" alt="Spoken Number Recognition System">
     <div class="project-content">
       <h2>Spoken Number Recognition System</h2>
@@ -53,7 +53,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="nlp">
     <img src="../images/nlp1.png" alt="POS Tagging">
     <div class="project-content">
       <h2>Recurrent Neural Models for Sequence Labeling</h2>
@@ -63,7 +63,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item">
+  <div class="project-item" data-category="nlp">
     <img src="../images/nlp2.png" alt="multi-label text classification with transformers">
     <div class="project-content">
       <h2>Multi-label Text Classification with Transformers</h2>
@@ -73,7 +73,7 @@ permalink: /projects/
     </div>
   </div>
     
-  <div class="project-item">
+  <div class="project-item" data-category="nlp">
     <img src="../images/nlp3.png" alt="Emotion Discovery and Reasoning its Flip in Conversation">
     <div class="project-content">
       <h2>Emotion Discovery and Reasoning its Flip in Conversation</h2>
