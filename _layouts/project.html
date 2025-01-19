@@ -161,39 +161,39 @@ layout: default
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll(".category-button"); // Select all category buttons
-    const projects = document.querySelectorAll(".project-item"); // Select all project items
-    
-    console.log("Script is running"); // Debugging message
-    console.log(buttons); // Log buttons
-    console.log(projects); // Log project items
-    
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        // Remove the active class from all buttons
-        buttons.forEach((btn) => btn.classList.remove("active"));
-    
-        // Add the active class to the clicked button
-        button.classList.add("active");
-    
-        // Get the selected category from the button's "data-category" attribute
-        const category = button.getAttribute("data-category");
-        console.log(`Selected category: ${category}`); // Debugging message
-    
-        // Show/hide projects based on the category
-        projects.forEach((project) => {
-          const categories = project.getAttribute("data-category").split(" "); // Get all categories for the project
-          console.log(`Project categories: ${categories}`); // Debugging message
-    
-          if (category === "all" || categories.includes(category)) {
-            project.style.display = "block"; // Show project
-          } else {
-            project.style.display = "none"; // Hide project
-          }
-        });
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".category-button"); // Select all category buttons
+  const projects = document.querySelectorAll(".project-item"); // Select all project items
+  
+  console.log("Script is running"); // Debugging message
+  console.log(buttons); // Log buttons
+  console.log(projects); // Log project items
+  
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove the active class from all buttons
+      buttons.forEach((btn) => btn.classList.remove("active"));
+  
+      // Add the active class to the clicked button
+      button.classList.add("active");
+  
+      // Get the selected category from the button's "data-category" attribute
+      const category = button.getAttribute("data-category");
+      console.log(`Selected category: ${category}`); // Debugging message
+  
+      // Show/hide projects based on the category
+      projects.forEach((project) => {
+        const categories = project.getAttribute("data-category").split(" "); // Get all categories for the project
+        console.log(`Project categories: ${categories}`); // Debugging message
+  
+        if (category === "all" || categories.includes(category)) {
+          project.style.display = "block"; // Show project
+        } else {
+          project.style.display = "none"; // Hide project
+        }
       });
     });
   });
+});
 
 </script>
