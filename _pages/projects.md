@@ -53,4 +53,34 @@ permalink: /projects/
     </div>
   </div>
 
+  <div class="project-item">
+    <img src="../images/nlp1.png" alt="POS Tagging">
+    <div class="project-content">
+      <h2>Recurrent Neural Models for Sequence Labeling</h2>
+      <p>Developed a part-of-speech (POS) tagging solution using Long Short-Term Memory (LSTM) models, achieving an F1-score of 0.91 on a test set of 13,676 elements. The best-performing model utilized an embedding layer, two bidirectional layers, and a fully connected layer, implemented in TensorFlow.</p>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/Assignment1.ipynb">GitHub Repository</a>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_A1.pdf">View Report (PDF)</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <img src="../images/nlp2.png" alt="multi-label text classification with transformers">
+    <div class="project-content">
+      <h2>Multi-label Text Classification with Transformers</h2>
+      <p>Designed and evaluated BERT-based classifiers to detect human value categories in textual arguments, achieving an F1-score of 0.65 and an average accuracy of 0.70. The best-performing model integrated argument conclusion, premise, and stance as input, utilizing Hugging Face Transformers with PyTorch</p>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/Assignment2.ipynb">GitHub Repository</a>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_A2.pdf">View Report (PDF)</a>
+    </div>
+  </div>
+    
+  <div class="project-item">
+    <img src="../images/nlp3.png" alt="Emotion Discovery and Reasoning its Flip in Conversation">
+    <div class="project-content">
+      <h2>Emotion Discovery and Reasoning its Flip in Conversation</h2>
+      <p>Developed a BERT-based system to identify emotions and detect emotional shifts in conversational dialogues, leveraging specialized classification heads for trigger and emotion detection. The model, tested with frozen and fully fine-tuned configurations, outperformed baseline classifiers in trigger detection but revealed challenges in emotion classification. Insights from class-wise analysis and error examination provide directions for future improvements in emotional discourse analysis.</p>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_Acar_Carkaxhia_Diaconu_Korsten.ipynb">GitHub Repository</a>
+      <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_report_Acar_Carkaxhia_Diaconu_Korsten.pdf">View Report (PDF)</a>
+    </div>
+  </div>
+
 </div>
