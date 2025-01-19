@@ -15,16 +15,15 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
+  <div class="projects">
+    <h1 class="projects-title">{{ page.title }}</h1>
 
-    <div class="timeline">
+    <div class="projects-grid">
       {{ content }}
     </div>
   </div>
 </div>
+
 <style>
     body {
       background-color: #F3F4F6; /* Light grey background */
@@ -47,30 +46,38 @@ layout: default
       margin-bottom: 40px;
     }
 
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
     .project-item {
-      display: flex;
-      align-items: center;
       background: white;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
       overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .project-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .project-item img {
-      width: 300px;
+      width: 100%;
       height: auto;
       object-fit: cover;
     }
 
     .project-content {
       padding: 20px;
-      flex: 1;
     }
 
     .project-content h2 {
       margin: 0;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
       color: #1F2937; /* Dark grey */
     }
@@ -92,4 +99,4 @@ layout: default
     .project-content a:hover {
       text-decoration: underline;
     }
-  </style>
+</style>
