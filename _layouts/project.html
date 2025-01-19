@@ -162,26 +162,27 @@ layout: default
 
 <script>
   // JavaScript for filtering projects
-  const buttons = document.querySelectorAll(".category-button");
-  const projects = document.querySelectorAll(".project-item");
+  const buttons = document.querySelectorAll(".category-button"); // Select all category buttons
+  const projects = document.querySelectorAll(".project-item");  // Select all project items
 
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      // Remove active class from all buttons
+      // Remove the active class from all buttons
       buttons.forEach((btn) => btn.classList.remove("active"));
 
-      // Add active class to clicked button
+      // Add the active class to the clicked button
       button.classList.add("active");
 
-      // Get selected category
-      const category = button.getAttribute("onclick").split("('")[1].split("')")[0];
+      // Get the selected category from the button's "data-category" attribute
+      const category = button.getAttribute("data-category");
 
-      // Show/hide projects based on category
+      // Show/hide projects based on the category
       projects.forEach((project) => {
-        if (category === "all" || project.getAttribute("data-category") === category) {
-          project.style.display = "block";
+        const categories = project.getAttribute("data-category").split(" "); // Get all categories for the project
+        if (category === "all" || categories.includes(category)) {
+          project.style.display = "block"; // Show project
         } else {
-          project.style.display = "none";
+          project.style.display = "none"; // Hide project
         }
       });
     });
