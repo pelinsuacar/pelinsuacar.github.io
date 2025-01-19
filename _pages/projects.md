@@ -17,7 +17,7 @@ permalink: /projects/
   </div>
 
   <div class="project-item">
-    <img src="../images/cuda.JPG" alt="Parallelization of the Bellman-Ford Algorithm">
+    <img src="../images/cudavsopenmp.JPG" alt="Parallelization of the Bellman-Ford Algorithm">
     <div class="project-content">
       <h2>Parallelization of the Bellman-Ford Algorithm</h2>
       <p>Developed and implemented parallelized versions of the Bellman-Ford algorithm using OpenMP and CUDA. Designed and evaluated CPU-based parallelization (OpenMP) with dynamic, static, and auto scheduling strategies, and GPU-based parallelization (CUDA) with varying thread and block configurations. Demonstrated that OpenMP outperforms for small inputs due to minimal overhead, while CUDA achieves substantial speedups for medium and large datasets (up to 264x).</p>
@@ -46,7 +46,7 @@ permalink: /projects/
   </div>
 
   <div class="project-item">
-    <img src="../images/speechsignal.jpg" alt="Spoken Number Recognition System">
+    <img src="../images/number_recognition.JPG" alt="Spoken Number Recognition System">
     <div class="project-content">
       <h2>Spoken Number Recognition System</h2>
       <p>Designed a spoken number recognition system on Vivado using Basys3 and analog components. Designed a PCB for filtering and amplification of speech signals. Implemented algorithms like Hamming Window, FFT, and MFCC in Vivado and displayed the recognized number on a 7-segment display.</p>
