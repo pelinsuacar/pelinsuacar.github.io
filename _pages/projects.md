@@ -5,7 +5,6 @@ permalink: /projects/
 ---
 
 <div class="projects">
-  <div class="projects-title">Projects</div>
 
   <div class="project-item">
     <img src="../images/mlcv.JPG" alt="One/Zero Shot Vehicle Detection">
