@@ -162,40 +162,8 @@ layout: default
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".category-button");
-  const projects = document.querySelectorAll(".project-item");
-
-  // Debugging: Check if elements are found
-  console.log("Category buttons found:", buttons.length);
-  console.log("Project items found:", projects.length);
-
-  if (buttons.length === 0 || projects.length === 0) {
-    console.error("Buttons or projects not found. Check your HTML structure.");
-    return; // Stop execution if elements are missing
-  }
-
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      // Remove 'active' from all buttons and add to the clicked one
-      buttons.forEach((btn) => btn.classList.remove("active"));
-      button.classList.add("active");
-
-      const category = button.getAttribute("data-category");
-      console.log("Selected category:", category);
-
-      projects.forEach((project) => {
-        const categories = project.getAttribute("data-category") || "";
-        const categoryList = categories.split(" ");
-        console.log("Project categories:", categoryList);
-
-        // Show or hide the project based on the selected category
-        if (category === "all" || categoryList.includes(category)) {
-          project.style.display = "block";
-        } else {
-          project.style.display = "none";
-        }
-      });
-    });
+    const script = document.createElement("script");
+    script.src = "/assets/js/custom.js";
+    document.body.appendChild(script);
   });
-});
 </script>
