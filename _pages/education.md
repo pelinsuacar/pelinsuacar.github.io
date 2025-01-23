@@ -5,12 +5,14 @@ permalink: /education/
 author_profile: true
 ---
 
-<div class="education-section">
+    <div class="education-section">
         <div class="education-item">
-            <img src="../images/unibo logo.png" alt="University Logo">
+            <a href="https://corsi.unibo.it/2cycle/artificial-intelligence" target="_blank">
+                <img src="../images/unibo logo.png" alt="University Logo">
+            </a>
             <div class="education-details">
                 <div class="education-header">
-                    <h3>University of Bologna</h3>
+                    <h3><a href="https://corsi.unibo.it/2cycle/artificial-intelligence" target="_blank">University of Bologna</a></h3>
                     <span>2022 - 2024</span>
                 </div>
                 <div class="degree">Master's Degree in Artificial Intelligence</div>
@@ -31,10 +33,13 @@ author_profile: true
             </div>
         </div>
          <div class="education-item">
-            <img src="../images/bilkent logo.jpg" alt="University Logo">
+            <div class="education-item">
+            <a href="https://ee.bilkent.edu.tr/en/" target="_blank">
+                <img src="../images/bilkent logo.jpg" alt="University Logo">
+            </a>
             <div class="education-details">
                 <div class="education-header">
-                    <h3>Bilkent University</h3>
+                    <h3><a href="https://ee.bilkent.edu.tr/en/" target="_blank">Bilkent University</a></h3>
                     <span>2016 - 2021</span>
                 </div>
                 <div class="degree">Bachelor's Degree in Electrical and Electronics Engineering</div>
