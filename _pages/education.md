@@ -10,7 +10,7 @@ author_profile: true
             <img src="../images/unibo logo.png" alt="University Logo">
             <div class="education-details">
                 <div class="education-header">
-                    <h3>Alma Mater Studiorum Universita Di Bologna</h3>
+                    <h3>University of Bologna</h3>
                     <span>2022 - 2024</span>
                 </div>
                 <div class="degree">Master's Degree in Artificial Intelligence</div>
@@ -34,7 +34,7 @@ author_profile: true
             <img src="../images/bilkent logo.jpg" alt="University Logo">
             <div class="education-details">
                 <div class="education-header">
-                    <h3>Universita of Bilkent</h3>
+                    <h3>Bilkent University</h3>
                     <span>2016 - 2021</span>
                 </div>
                 <div class="degree">Bachelor's Degree in Electrical and Electronics Engineering</div>
