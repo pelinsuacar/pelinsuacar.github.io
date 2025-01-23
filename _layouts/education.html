@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    <div class="education">
+      {{ content }}
+    </div>
+  </div>
+</div>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .education-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .education-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .education-item img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .education-details {
+            flex-grow: 1;
+        }
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .education-header h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .education-header span {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .degree {
+            margin: 5px 0;
+            font-style: italic;
+        }
+        .gpa {
+            margin: 5px 0;
+        }
+        .relevant-courses {
+            margin-top: 10px;
+        }
+        .relevant-courses span {
+            font-weight: bold;
+        }
+        .relevant-courses ul {
+            margin: 5px 0 0 0;
+            padding-left: 20px;
+        }
+    </style>
