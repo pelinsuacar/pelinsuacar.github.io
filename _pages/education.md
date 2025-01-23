@@ -13,19 +13,44 @@ author_profile: true
                     <h3>Alma Mater Studiorum Universita Di Bologna</h3>
                     <span>2022 - 2024</span>
                 </div>
-                <div class="degree">Master's Degree in Artificial Intelligence (BCS)</div>
+                <div class="degree">Master's Degree in Artificial Intelligence</div>
                 <div class="gpa">GPA: 102/110</div>
                 <div class="relevant-courses">
                     <span>Relevant Courses:</span>
                     <ul>
                         <li>Machine Learning and Deep Learning</li>
                         <li>Image Processing and Computer Vision</li>
-                        <li>Fundamentals of Artifical Intelligence and Knowledge Representation</li>
+                        <li>Fundamentals of Artificial Intelligence and Knowledge Representation</li>
                         <li>Combinatorial Decision Making and Optimizaiton</li>
-                        <li>Architectures and Platforms for Artifical Intelligence</li>
+                        <li>Architectures and Platforms for Artificial Intelligence</li>
                         <li>Data Mining, Text Mining and Big Data Analytics</li>
                         <li>Natural Language Processing</li>
                         <li>Artifical Intelligence in Industry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <div class="education-item">
+            <img src="../images/bilkent logo.jpg" alt="University Logo">
+            <div class="education-details">
+                <div class="education-header">
+                    <h3>Universita of Bilkent</h3>
+                    <span>2016 - 2021</span>
+                </div>
+                <div class="degree">Bachelor's Degree in Electrical and Electronics Engineering</div>
+                <div class="gpa">GPA: 3.52/4.0</div>
+                <div class="relevant-courses">
+                    <span>Relevant Courses:</span>
+                    <ul>
+                        <li>Introduction to Machine Learning</li>
+                        <li>Probability and Statistics</li>
+                        <li>Computer Networks</li>
+                        <li>Engineering Economic Analysis</li>
+                        <li>Principles of Economics</li>
+                        <li>Game Theory</li>
+                        <li>Digital Signal Processing</li>
+                        <li>Algorithms and Programming</li>
+                        <li>Introduction to Modeling and Optimization</li>
                     </ul>
                 </div>
             </div>
