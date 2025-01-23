@@ -33,7 +33,6 @@ author_profile: true
         </div>
     </div>
      <div class="education-item">
-        <div class="education-item">
         <a href="https://ee.bilkent.edu.tr/en/" target="_blank">
             <img src="../images/bilkent logo.jpg" alt="University Logo">
         </a>
@@ -50,12 +49,14 @@ author_profile: true
                     <li>Introduction to Machine Learning</li>
                     <li>Probability and Statistics</li>
                     <li>Computer Networks</li>
-                    <li>Engineering Economic Analysis</li>
-                    <li>Principles of Economics</li>
-                    <li>Game Theory</li>
-                    <li>Digital Signal Processing</li>
                     <li>Algorithms and Programming</li>
                     <li>Introduction to Modeling and Optimization</li>
+                    <li>Engineering Economic Analysis</li>
+                    <li>Game Theory</li>
+                    <li>Digital Signal Processing</li>
+                    <li>Telecommunications</li>
+                    <li>Microprocessors</li>
+                    <li>Digital Circuit Design</li>
                 </ul>
             </div>
         </div>
