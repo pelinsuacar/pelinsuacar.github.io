@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="education-section">
         <div class="education-item">
-            <img src="unibo logo.png" alt="University Logo">
+            <img src="../images/unibo logo.png" alt="University Logo">
             <div class="education-details">
                 <div class="education-header">
                     <h3>Alma Mater Studiorum Universita Di Bologna</h3>
