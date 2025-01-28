@@ -5,6 +5,10 @@
 # prevent it from being included in the site.
 
 main:
+
+  - title: "About"
+    url: /about/
+    
   - title: "Education"
     url: /education/
 
@@ -14,8 +18,8 @@ main:
   - title: "Experience"
     url: /experience/
     
-  - title: "CV"
-    url: /cv/
-    
   - title: "Licenses & Certifications"
     url: /licenses-certifications/
+        
+  - title: "CV"
+    url: /cv/
