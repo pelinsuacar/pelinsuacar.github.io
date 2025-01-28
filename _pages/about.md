@@ -1,8 +1,11 @@
 ---
-layout: default
-title: About
-permalink: /about/
+permalink: /
+title: "About"
+excerpt: "About"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am a passionate AI engineer with a master’s degree in artificial intelligence from the University of Bologna and a bachelor’s in electrical and electronics engineering, with research interests in computer vision and natural language processing.
