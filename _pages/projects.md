@@ -36,20 +36,23 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item" data-category="computer-vision iot">
+<div class="project-item" data-category="computer-vision iot"> 
     <img src="../images/facemask.JPG" alt="Anti-Covid19 Systems">
     <div class="project-content">
       <h2>Anti-Covid19 Systems</h2>
       <p>Designed an IoT application to check the face mask and body temperature of people using peripheral devices (temperature sensor, servo motor, LCD screen, Bluetooth module, Webcam), Arduino UNO, and Raspberry Pi4. Implemented facial recognition and detected unmasked faces utilizing OpenCV. Displayed the data on an Android application and sent notifications to users.</p>
-      <a href="https://www.youtube.com/watch?v=Hjg5IJv0Vv4">Video Link</a>
+      <a href="https://www.youtube.com/watch?v=Hjg5IJv0Vv4" target="_blank">Video Link</a> |
+      <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/anti-covid19.pptx&embedded=true" target="_blank">View Slides</a>
     </div>
-  </div>
+</div>
+
 
   <div class="project-item" data-category="signal-processing">
     <img src="../images/number_recognition.JPG" alt="Spoken Number Recognition System">
     <div class="project-content">
       <h2>Spoken Number Recognition System</h2>
       <p>Designed a spoken number recognition system on Vivado using Basys3 and analog components. Designed a PCB for filtering and amplification of speech signals. Implemented algorithms like Hamming Window, FFT, and MFCC in Vivado and displayed the recognized number on a 7-segment display.</p>
+      <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/Spoken Number Recognition.pdf&embedded=true" target="_blank">View Report (PDF)</a>
     </div>
   </div>
 
@@ -80,6 +83,15 @@ permalink: /projects/
       <p>Developed a BERT-based system to identify emotions and detect emotional shifts in conversational dialogues, leveraging specialized classification heads for trigger and emotion detection. The model, tested with frozen and fully fine-tuned configurations, outperformed baseline classifiers in trigger detection but revealed challenges in emotion classification. Insights from class-wise analysis and error examination provide directions for future improvements in emotional discourse analysis.</p>
       <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_Acar_Carkaxhia_Diaconu_Korsten.ipynb">GitHub Repository</a>
       <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_report_Acar_Carkaxhia_Diaconu_Korsten.pdf">View Report (PDF)</a>
+    </div>
+  </div>
+
+  <div class="project-item" data-category="nlp">
+    <img src="../images/teamable snake.JPG" alt="Tameable Snake">
+    <div class="project-content">
+      <h2>Tameable Snake</h2>
+      <p>Implemented a Deep Q Neural Network for the Snake game using Tensorflow and trained the snake with reward and state mechanism.</p>
+      <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/temable snake.pdf&embedded=true" target="_blank">View Report (PDF)</a>
     </div>
   </div>
 
