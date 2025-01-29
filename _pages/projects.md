@@ -48,7 +48,7 @@ permalink: /projects/
       <h2>Anti-Covid19 Systems</h2>
       <p>Designed an IoT application to check the face mask and body temperature of people using peripheral devices (temperature sensor, servo motor, LCD screen, Bluetooth module, Webcam), Arduino UNO, and Raspberry Pi4. Implemented facial recognition and detected unmasked faces utilizing OpenCV. Displayed the data on an Android application and sent notifications to users.</p>
       <div class="project-buttons">
-        <a href="https://www.youtube.com/watch?v=Hjg5IJv0Vv4" target="_blank">Video Link</a> |
+        <a href="https://www.youtube.com/watch?v=Hjg5IJv0Vv4" target="_blank">Video Link</a>
         <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/anti-covid19.pptx&embedded=true" target="_blank">View Slides</a>
       </div>
     </div>
