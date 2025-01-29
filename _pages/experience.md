@@ -4,6 +4,38 @@ title: Experience
 permalink: /experience/
 author_profile: true
 ---
+<div class="timeline-item">
+  <a href="https://www.cnh.com" target="_blank">
+    <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+  </a>
+  <div>
+    <h2 class="position-title">Master’s Thesis Student</h2>
+    <p class="dates-location">March 2024 – December 2024 · Belgium</p>
+    <p class="company-name">
+      <a href="https://www.cnh.com" target="_blank">CNH INDUSTRIAL BELGIUM NV</a>
+    </p>
+    <p class="explanation">
+      - Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.<br> 
+      - Evaluated state-of-the-art models (OWLv2 and YOLO-World) using different query embedding techniques (CLIP, DINOv2) to asses kernel detection performance.
+    </p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div>
+    <h2 class="position-title">AI Intern</h2>
+    <p class="dates-location">August 2023 – September 2023 · Bulgaria</p>
+    <p class="company-name">
+      <a MLPS AD</a>
+    </p>
+    <p class="explanation">
+      - Developed a license plate recognition system as part of an internship, leveraging OpenCV for image processing and Tesseract OCR for text extraction to accurately detect and recognize alphanumeric characters.<br> 
+      - Implemented a BRISQUE-based no-reference image quality assessment system using Python, leveraging OpenCV, SciPy, and libSVM to calculate quality scores and identify the best-quality images from a user-provided dataset.
+      - Implemented object detection using a pre-trained SSD MobileNet model, enhanced with Grad-CAM for class activation visualization, and developed a color detection pipeline leveraging K-Means clustering and RGB matching for precise feature-based analysis.
+    </p>
+  </div>
+</div>
+
 
 <div class="timeline-item">
   <a href="https://nttdata-solutions.com/tr/" target="_blank">
