@@ -27,29 +27,38 @@ layout: default
 </div>
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .page__title {
+    text-align: center; /* Center the title */
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add some space below the title */
+    }
+  
+    .education {
+    width: 100%; /* Use full width */
+    margin-left: 0; /* Remove any centering */
+    padding-left: 20px; /* Add padding if needed */
   }
-  .page__title {
-  text-align: center; /* Center the title */
-  font-size: 2em; /* Adjust font size as needed */
-  margin-bottom: 20px; /* Add some space below the title */
-  }
+
   .education-section {
-    width: 800px;
-    margin: 20px auto;
+    width: auto; /* Allow it to grow to fit content */
+    margin: 20px 0; /* Adjust margins for spacing */
   }
+  
   .education-item {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start; /* Left-align items */
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
     position: relative;
   }
+
   .education-item a img {
     width: 100px;
     height: 100px;
