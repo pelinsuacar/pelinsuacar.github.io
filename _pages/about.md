@@ -8,8 +8,17 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .page__title {
+    text-align: center;
+  }
+  .content-container p {
+    margin-bottom: 0; /* Removes space below paragraphs */
+  }
+</style>
+
 <div style="display: flex; justify-content: center;">
-  <div style="max-width: 600px; text-align: left;">
+  <div class="content-container" style="max-width: 900px; width: 100%; text-align: left;">
     
     I am a passionate AI engineer with a master’s degree in artificial intelligence from the University of Bologna and a bachelor’s in electrical and electronics engineering, with research interests in computer vision and natural language processing.
 
