@@ -9,10 +9,15 @@ redirect_from:
 ---
 
 <style>
+    /* Ensure the title is fully visible with proper spacing */
   .page__title {
     text-align: left;
     font-family: Arial, sans-serif;
-    font-size: 2em;
+    font-size: 2em; /* Adjust font size */
+    font-weight: bold;
+    color: dark grey;
+    margin: 70px 0 40px; /* Add sufficient margin above and below */
+    padding-top: 20px; /* Add padding in case of header overlap */
   }
 
   .content-container {
