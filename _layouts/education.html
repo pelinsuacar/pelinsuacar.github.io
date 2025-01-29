@@ -15,7 +15,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="education-section">
+  <div class="archieve">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
@@ -31,14 +31,19 @@ layout: default
     font-family: Arial, sans-serif;
     margin: 20px;
   }
-  .page__title {
-  text-align: center; /* Center the title */
-  font-size: 2em; /* Adjust font size as needed */
-  margin-bottom: 20px; /* Add some space below the title */
-  }
   .education-section {
-    width: 800px;
-    margin: 0;
+    width: 800px; /* Fixed width for the education section */
+    margin: 0 auto; /* Center the education section on the page */
+    position: relative; /* Make the section relative for positioning children */
+  }
+  
+  .page__title {
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add some space below the title */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center the title relative to the parent container */
+    text-align: center; /* Ensure text is centered within the title box */
   }
   .education-item {
     display: flex;
