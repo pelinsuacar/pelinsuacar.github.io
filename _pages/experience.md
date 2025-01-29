@@ -26,7 +26,7 @@ author_profile: true
     <h2 class="position-title">AI Intern</h2>
     <p class="dates-location">August 2023 – September 2023 · Bulgaria</p>
     <p class="company-name">
-      <a MLPS AD</a>
+      <span class="blue-text">MLPS AD</span>
     </p>
     <p class="explanation">
       - Developed a license plate recognition system as part of an internship, leveraging OpenCV for image processing and Tesseract OCR for text extraction to accurately detect and recognize alphanumeric characters.<br> 
