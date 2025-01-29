@@ -68,7 +68,7 @@ layout: default2
   .category-bar {
     display: flex; /* Align buttons in a row */
     justify-content: center; /* Center the buttons horizontally */
-    align-items: center; /* Align buttons vertically */
+    align-items: stretch; /* Align buttons vertically */
     width: fit-content;
     margin-top: 10px; /* Space between the title and the bar */
     margin-bottom: 20px; /* Space between the bar and the project boxes */
@@ -78,31 +78,29 @@ layout: default2
   }
 
   .category-button {
-    font-size: 14px;
-    font-weight: bold;
-    color: #4B5563;
-    background-color: #F3F4F6;
-    border: 1px solid #D1D5DB;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 8px 16px;
-    transition: all 0.3s ease;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px; /* Set a fixed height to equalize buttons */
-    min-width: 100px; /* Ensure consistent button width */
-    line-height: 1.2; /* Adjust line spacing for better readability */
-    white-space: normal; /* Allow text wrapping */
-  }
-  
-  .category-button:hover,
-  .category-button.active {
-    background-color: #3B82F6;
-    color: white;
-    border-color: #3B82F6;
-  }
+  font-size: 14px;
+  font-weight: bold;
+  color: #4B5563;
+  background-color: #F3F4F6;
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px; /* Padding for spacing */
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px; /* Set equal height for all buttons */
+  line-height: 1.2; /* Adjust line spacing */
+  white-space: normal; /* Allow text to wrap */
+}
+.category-button:hover,
+.category-button.active {
+  background-color: #3B82F6;
+  color: white;
+  border-color: #3B82F6;
+}
 
   /* Projects Grid */
   .projects {
