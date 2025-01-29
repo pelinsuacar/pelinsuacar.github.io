@@ -64,44 +64,42 @@ layout: default2
     padding-top: 20px; /* Add padding in case of header overlap */
   }
 
-  /* Category Bar */
   .category-bar {
-    display: flex; /* Align buttons in a row */
-    justify-content: center; /* Center the buttons horizontally */
-    align-items: stretch; /* Align buttons vertically */
-    width: fit-content;
-    margin-top: 10px; /* Space between the title and the bar */
-    margin-bottom: 20px; /* Space between the bar and the project boxes */
-    background-color: #f9f9f9; /* Optional: Light background for the bar */
-    margin-left: auto; /* Center the bar horizontally */
-    margin-right: auto; /* Center the bar horizontally */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensures all buttons stretch to the same height */
+  gap: 5px; /* Adds spacing between buttons */
+  flex-wrap: wrap; /* Allows buttons to wrap into multiple lines */
+}
 
   .category-button {
-  font-size: 14px;
-  font-weight: bold;
-  max-width: fit-content;
-  color: #4B5563;
-  background-color: #F3F4F6;
-  border: 1px solid #D1D5DB;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 4px 8px; /* Padding for spacing */
-  transition: all 0.3s ease;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px; /* Set equal height for all buttons */
-  line-height: 1.2; /* Adjust line spacing */
-  white-space: normal; /* Allow text to wrap */
-}
-.category-button:hover,
-.category-button.active {
-  background-color: #3B82F6;
-  color: white;
-  border-color: #3B82F6;
-}
+    font-size: 14px;
+    font-weight: bold;
+    color: #4B5563;
+    background-color: #F3F4F6;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px; /* Keep padding consistent */
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Set a fixed height for all buttons */
+    max-width: fit-content; /* Prevent buttons from expanding too much */
+    line-height: 1.2; /* Ensure readable line spacing */
+    white-space: normal; /* Allow text wrapping */
+    word-break: break-word; /* Prevents long words from causing extra width */
+  }
+  
+   
+  .category-button:hover,
+  .category-button.active {
+    background-color: #3B82F6;
+    color: white;
+    border-color: #3B82F6;
+  }
 
   /* Projects Grid */
   .projects {
