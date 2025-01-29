@@ -10,8 +10,11 @@ redirect_from:
 
 <style>
   .page__title {
-    text-align: center;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
   }
+
   .content-container {
     text-align: justify; /* Justify-align the About content */
   }
@@ -21,7 +24,7 @@ redirect_from:
 </style>
 
 <div style="display: flex; justify-content: center;">
-  <div class="content-container" style="max-width: 900px; width: 100%;">
+  <div class="content-container" style="max-width: 800px; width: 100%;">
     
     <p>
       I am a passionate AI engineer with a master’s degree in artificial intelligence from the University of Bologna and a bachelor’s in electrical and electronics engineering, with research interests in computer vision and natural language processing.
