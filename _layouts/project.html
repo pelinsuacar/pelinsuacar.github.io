@@ -85,10 +85,18 @@ layout: default2
     border: 1px solid #D1D5DB;
     border-radius: 4px;
     cursor: pointer;
-    padding: 4px 10px; /* Add padding for a better button look */
+    padding: 8px 16px;
     transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Set a fixed height to equalize buttons */
+    min-width: 100px; /* Ensure consistent button width */
+    line-height: 1.2; /* Adjust line spacing for better readability */
+    white-space: normal; /* Allow text wrapping */
   }
-
+  
   .category-button:hover,
   .category-button.active {
     background-color: #3B82F6;
