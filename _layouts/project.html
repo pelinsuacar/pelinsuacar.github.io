@@ -113,6 +113,7 @@ layout: default2
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
   }
 
   .project-item img {
@@ -123,6 +124,10 @@ layout: default2
 
   .project-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* Ensures the content takes the available space */
   }
 
   .project-content h2 {
@@ -139,23 +144,21 @@ layout: default2
   }
 
   .project-content a {
-    display: inline-block; /* Ensures the box adjusts to the content */
-    margin-top: 10px;
-    margin-right: 10px; /* Adds spacing between multiple links */
-    padding: 4px 12px; /* Space inside the box */
-    font-size: 10px;
-    font-weight: bold;
-    color: #3B82F6; /* Blue color for text */
-    background-color: #F3F4F6; /* Light grey background */
-    border: 2px solid #3B82F6; /* Blue border */
-    border-radius: 4px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    transition: all 0.3s ease; /* Smooth hover effect */
-  }
+  display: inline-block;
+  margin-top: auto; /* Push the link button to the bottom */
+  padding: 4px 12px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #3B82F6;
+  background-color: #F3F4F6;
+  border: 2px solid #3B82F6;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
 
-  .project-content a:hover {
-    background-color: #3B82F6; /* Blue background on hover */
-    color: white; /* White text on hover */
-    text-decoration: none;
-  }
+.project-content a:hover {
+  background-color: #3B82F6;
+  color: white;
+}
 </style>
