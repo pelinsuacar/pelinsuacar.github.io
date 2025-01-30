@@ -54,6 +54,7 @@ layout: default2
     flex-direction: column; /* Arrange title and category bar vertically */
     width: 800px;
     margin: 20px auto;
+    padding-left: 20px; /* Add padding in case of header overlap */
   }
 
     /* Ensure the title is fully visible with proper spacing */
@@ -63,12 +64,13 @@ layout: default2
     font-size: 2em; /* Adjust font size */
     font-weight: bold;
     color: dark grey;
-    margin: 70px 0 40px; /* Add sufficient margin above and below */
+    margin: 0px 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
 
   .category-bar {
   display: flex;
+  padding-left: 20px; /* Add padding in case of header overlap */
   margin: 0px auto;
   justify-content: center;
   align-items: stretch; /* Ensures all buttons stretch to the same height */
@@ -106,6 +108,7 @@ layout: default2
   /* Projects Grid */
   .projects {
     width: 800px;
+    padding-left: 20px; /* Add padding in case of header overlap */
     margin: 0px auto; /* Center the project grid */
     justify-content: center;
     padding: 0 20px;
