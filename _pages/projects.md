@@ -102,7 +102,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-item" data-category="nlp">
+  <div class="project-item" data-category="reinforcement-learning">
     <img src="../images/teamable snake.JPG" alt="Tameable Snake">
     <div class="project-content">
       <h2>Tameable Snake</h2>
