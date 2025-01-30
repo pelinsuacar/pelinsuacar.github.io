@@ -60,17 +60,16 @@ layout: default2
     /* Ensure the title is fully visible with proper spacing */
   .page__title {
     text-align: left;
+    padding-left: 20px; 
     font-family: Arial, sans-serif;
     font-size: 2em; /* Adjust font size */
     font-weight: bold;
     color: dark grey;
     margin: 0px 0 40px; /* Add sufficient margin above and below */
-    padding-top: 20px; /* Add padding in case of header overlap */
   }
 
   .category-bar {
   display: flex;
-  padding-left: 20px; /* Add padding in case of header overlap */
   margin: 0px auto;
   justify-content: center;
   align-items: stretch; /* Ensures all buttons stretch to the same height */
@@ -111,7 +110,6 @@ layout: default2
     padding-left: 20px; /* Add padding in case of header overlap */
     margin: 0px auto; /* Center the project grid */
     justify-content: center;
-    padding: 0 20px;
     display: grid; /* Use CSS Grid */
     grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
     gap: 20px; /* Add space between items */
