@@ -16,7 +16,7 @@ redirect_from:
     font-size: 2em; /* Adjust font size */
     font-weight: bold;
     color: dark grey;
-    margin: 70px 0 40px; /* Add sufficient margin above and below */
+    margin: 0px 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
 
