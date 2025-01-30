@@ -10,7 +10,7 @@ permalink: /projects/
     <img src="../images/mlcv.JPG" alt="One/Zero Shot Vehicle Detection">
     <div class="project-content">
       <h2>One/Zero Shot Vehicle Detection on Satellite Images using Image/Text Queries</h2>
-      <p>Implemented and evaluated two open-vocabulary object detection models, OWL-ViT and YOLO-WORLD, for detecting vehicle classes in satellite images using both text and image queries. OWL-ViT demonstrated strong zero-shot performance for common classes like "car" but struggled with fine-grained distinctions, while excelling in one-shot settings with image queries due to its image similarity capabilities. YOLO-WORLD improved after fine-tuning with image embeddings, highlighting the potential of one/zero-shot object detection for diverse and specialized classes.</p>
+      <p>Implemented and evaluated two open-vocabulary object detection models, OWL-ViT and YOLO-WORLD, for detecting vehicle classes in satellite images using both text and image queries.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/MLCV_project">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/MLCV_project/blob/main/MLCV_PROJECT_REPORT_PELINSU_ACAR.pdf">View Report (PDF)</a>
@@ -22,7 +22,7 @@ permalink: /projects/
     <img src="../images/cudavsopenmp.JPG" alt="Parallelization of the Bellman-Ford Algorithm">
     <div class="project-content">
       <h2>Parallelization of the Bellman-Ford Algorithm</h2>
-      <p>Developed and implemented parallelized versions of the Bellman-Ford algorithm using OpenMP and CUDA. Designed and evaluated CPU-based parallelization (OpenMP) with dynamic, static, and auto scheduling strategies, and GPU-based parallelization (CUDA) with varying thread and block configurations. Demonstrated that OpenMP outperforms for small inputs due to minimal overhead, while CUDA achieves substantial speedups for medium and large datasets (up to 264x).</p>
+      <p>Developed and implemented parallelized versions of the Bellman-Ford algorithm using OpenMP and CUDA. Designed and evaluated CPU-based parallelization (OpenMP) with dynamic, static, and auto scheduling strategies, and GPU-based parallelization (CUDA) with varying thread and block configurations.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/parallel_bellman_ford_implementation">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/parallel_bellman_ford_implementation/blob/main/pelinsu_acar_project_report.pdf">View Report (PDF)</a>
@@ -34,7 +34,7 @@ permalink: /projects/
     <img src="../images/cdmo.png" alt="Multi-Courier Problem (MCP) Optimization">
     <div class="project-content">
       <h2>Multi-Courier Problem (MCP) Optimization</h2>
-      <p>Developed and compared four models—Constraint Programming (CP), Boolean Satisfiability (SAT), Satisfiability Modulo Theories (SMT), and Mixed-Integer Programming (MIP)—to optimize courier assignment and routing for minimizing total travel distance. Utilized standard Vehicle Routing Problem methodologies and achieved optimal solutions for small-scale instances while identifying limitations in SAT and SMT for larger instances.</p>
+      <p>Developed and compared four models—Constraint Programming (CP), Boolean Satisfiability (SAT), Satisfiability Modulo Theories (SMT), and Mixed-Integer Programming (MIP)—to optimize courier assignment and routing for minimizing total travel distance.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/CDMO_Project">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/CDMO_Project/blob/main/CDMO_Project_Report.pdf">View Report (PDF)</a>
@@ -46,7 +46,7 @@ permalink: /projects/
     <img src="../images/facemask.JPG" alt="Anti-Covid19 Systems">
     <div class="project-content">
       <h2>Anti-Covid19 Systems</h2>
-      <p>Designed an IoT application to check the face mask and body temperature of people using peripheral devices (temperature sensor, servo motor, LCD screen, Bluetooth module, Webcam), Arduino UNO, and Raspberry Pi4. Implemented facial recognition and detected unmasked faces utilizing OpenCV. Displayed the data on an Android application and sent notifications to users.</p>
+      <p>Developed an IoT application using Arduino UNO and Raspberry Pi4 to monitor face masks and body temperature. Implemented facial recognition with OpenCV to detect unmasked faces, displayed data on an Android app, and sent user notifications.</p>
       <div class="project-buttons">
         <a href="https://www.youtube.com/watch?v=Hjg5IJv0Vv4" target="_blank">Video Link</a>
         <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/anti-covid19.pptx&embedded=true" target="_blank">View Slides</a>
@@ -70,7 +70,7 @@ permalink: /projects/
     <img src="../images/nlp1.png" alt="POS Tagging">
     <div class="project-content">
       <h2>Recurrent Neural Models for Sequence Labeling</h2>
-      <p>Developed a part-of-speech (POS) tagging solution using Long Short-Term Memory (LSTM) models, achieving an F1-score of 0.91 on a test set of 13,676 elements. The best-performing model utilized an embedding layer, two bidirectional layers, and a fully connected layer, implemented in TensorFlow.</p>
+      <p>Developed a part-of-speech (POS) tagging solution using Long Short-Term Memory (LSTM) models, achieving an F1-score of 0.91 on a test set of 13,676 elements.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/Assignment1.ipynb">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_A1.pdf">View Report (PDF)</a>
@@ -82,7 +82,7 @@ permalink: /projects/
     <img src="../images/nlp2.png" alt="multi-label text classification with transformers">
     <div class="project-content">
       <h2>Multi-label Text Classification with Transformers</h2>
-      <p>Designed and evaluated BERT-based classifiers to detect human value categories in textual arguments, achieving an F1-score of 0.65 and an average accuracy of 0.70. The best-performing model integrated argument conclusion, premise, and stance as input, utilizing Hugging Face Transformers with PyTorch</p>
+      <p>Designed and evaluated BERT-based classifiers to detect human value categories in textual arguments, achieving an F1-score of 0.65 and an average accuracy of 0.70.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/Assignment2.ipynb">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_A2.pdf">View Report (PDF)</a>
@@ -94,7 +94,7 @@ permalink: /projects/
     <img src="../images/nlp3.png" alt="Emotion Discovery and Reasoning its Flip in Conversation">
     <div class="project-content">
       <h2>Emotion Discovery and Reasoning its Flip in Conversation</h2>
-      <p>Developed a BERT-based system to identify emotions and detect emotional shifts in conversational dialogues, leveraging specialized classification heads for trigger and emotion detection. The model, tested with frozen and fully fine-tuned configurations, outperformed baseline classifiers in trigger detection but revealed challenges in emotion classification. Insights from class-wise analysis and error examination provide directions for future improvements in emotional discourse analysis.</p>
+      <p>Developed a BERT-based system to identify emotions and detect emotional shifts in conversational dialogues, leveraging specialized classification heads for trigger and emotion detection.</p>
       <div class="project-buttons">
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_Acar_Carkaxhia_Diaconu_Korsten.ipynb">GitHub Repository</a>
         <a href="https://github.com/pelinsuacar/NLP_Projects/blob/main/NLP_project_report_Acar_Carkaxhia_Diaconu_Korsten.pdf">View Report (PDF)</a>
