@@ -90,11 +90,14 @@ layout: default
     border-radius: 50%; /* Make it a circle */
   }
 
+  /* Company logo */
   .timeline-item .company-logo {
-  width: 145px !important;
-  height: 60px !important;
-  object-fit: contain;
-  margin-right: 20px;
+    width: 145px !important;
+    height: 60px !important;
+    max-width: none;
+    max-height: none;
+    object-fit: none;
+    margin-right: 20px; /* Space between logo and text */
   }
 
   .timeline-item h2 {
@@ -123,7 +126,8 @@ layout: default
     color: #1F2937; /* Black for the explanation */
     font-size: 14px;
     margin-top: 10px;
-    margin-left: 0;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Take full width under the logo */
   }
   .blue-text {
   color: #1a0dab; /* Google link blue */
