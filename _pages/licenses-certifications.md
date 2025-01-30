@@ -31,10 +31,12 @@ author_profile: true
 **Date Earned**: December 22, 2021   
 **Quantitative Reasoning**: 167/170
 
-<img src="../images/GRE_logo.png" alt="gre logo" style="width: 50%; height: auto;" />
+<img src="../images/GRE_logo.png" alt="gre logo" style="width: 30%; height: auto;" />
 
 ### [IELTS](https://www.britishcouncil.org.tr/en/exam/ielts)
 **Issued by**: Bristish Council   
 **Date Earned**: January 08, 2022   
 **Score**: 7/9
+
+<img src="../images/ielts.jpg" alt="ielts logo" style="width: 30%; height: auto;" />
 
