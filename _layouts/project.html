@@ -53,7 +53,7 @@ layout: default2
     display: flex; /* Use flexbox for horizontal alignment */
     flex-direction: column; /* Arrange title and category bar vertically */
     width: 800px;
-    margin: 20px 0;
+    margin: 20px auto;
   }
 
     /* Ensure the title is fully visible with proper spacing */
@@ -73,124 +73,124 @@ layout: default2
   justify-content: center;
   align-items: stretch; /* Ensures all buttons stretch to the same height */
   flex-wrap: wrap; /* Allows buttons to wrap into multiple lines */
-}
+  }
 
-.category-button {
-  font-size: 12px;
-  font-weight: bold;
-  color: #4B5563;
-  background-color: #F3F4F6;
-  border: 1px solid #D1D5DB;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 4px 12px; /* Keep padding consistent */
-  transition: all 0.3s ease;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: fit-content; /* Prevent buttons from expanding too much */
-  line-height: 1.2; /* Ensure readable line spacing */
-  white-space: normal; /* Allow text wrapping */
-  word-break: break-word; /* Prevents long words from causing extra width */
-}
+  .category-button {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4B5563;
+    background-color: #F3F4F6;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 12px; /* Keep padding consistent */
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content; /* Prevent buttons from expanding too much */
+    line-height: 1.2; /* Ensure readable line spacing */
+    white-space: normal; /* Allow text wrapping */
+    word-break: break-word; /* Prevents long words from causing extra width */
+  }
+    
+     
+  .category-button:hover,
+  .category-button.active {
+    background-color: #3B82F6;
+    color: white;
+    border-color: #3B82F6;
+  }
   
-   
-.category-button:hover,
-.category-button.active {
-  background-color: #3B82F6;
-  color: white;
-  border-color: #3B82F6;
-}
-
-/* Projects Grid */
-.projects {
-  width: 800px;
-  margin: 0px auto; /* Center the project grid */
-  justify-content: center;
-  padding: 0 20px;
-  display: grid; /* Use CSS Grid */
-  grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
-  gap: 20px; /* Add space between items */
-}
-
-/* Project Items */
-.project-item {
-  background: white;
-  border: 2px solid #E5E7EB; /* Light grey border */
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
-
-.project-item img {
-  width: 100%;
-  object-fit: cover;
-  height: auto;
-}
-
-.project-content {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Ensures the content takes available space */
-}
-
-.project-content h2 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #1F2937; /* Dark grey */
-}
-
-.project-content p {
-  margin: 10px 0;
-  font-size: 12px;
-  text-align: justify;
-  color: #6B7280; /* Grey */
-}
-
-.project-content a {
-  display: inline-block;
-  margin-top: auto; /* Push the link button to the bottom */
-  padding: 4px 12px;
-  font-size: 10px;
-  font-weight: bold;
-  color: #3B82F6;
-  background-color: #F3F4F6;
-  border: 2px solid #3B82F6;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.project-buttons {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  margin-top: auto; /* Pushes buttons to the bottom */
-}
-
-.project-buttons a {
-  display: inline-block;
-  padding: 2px 4px;
-  font-size: 10px;
-  font-weight: bold;
-  color: #3B82F6;
-  background-color: #F3F4F6;
-  border: 2px solid #3B82F6;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.project-buttons a:hover {
-  background-color: #3B82F6;
-  color: white;
-}
-</style>
+  /* Projects Grid */
+  .projects {
+    width: 800px;
+    margin: 0px auto; /* Center the project grid */
+    justify-content: center;
+    padding: 0 20px;
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
+    gap: 20px; /* Add space between items */
+  }
+  
+  /* Project Items */
+  .project-item {
+    background: white;
+    border: 2px solid #E5E7EB; /* Light grey border */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .project-item img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+  
+  .project-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensures the content takes available space */
+  }
+  
+  .project-content h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2937; /* Dark grey */
+  }
+  
+  .project-content p {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: justify;
+    color: #6B7280; /* Grey */
+  }
+  
+  .project-content a {
+    display: inline-block;
+    margin-top: auto; /* Push the link button to the bottom */
+    padding: 4px 12px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #3B82F6;
+    background-color: #F3F4F6;
+    border: 2px solid #3B82F6;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .project-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: auto; /* Pushes buttons to the bottom */
+  }
+  
+  .project-buttons a {
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #3B82F6;
+    background-color: #F3F4F6;
+    border: 2px solid #3B82F6;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .project-buttons a:hover {
+    background-color: #3B82F6;
+    color: white;
+  }
+  </style>
