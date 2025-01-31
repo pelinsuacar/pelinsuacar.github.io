@@ -12,7 +12,7 @@ author_profile: true
     <h2 class="position-title">Master’s Thesis Student</h2>
     <p class="dates-location">March 2024 – December 2024 · Belgium</p>
     <p class="company-name">
-      <a href="https://www.cnh.com" target="_blank">CNH INDUSTRIAL BELGIUM NV</a>
+      <a href="https://www.cnh.com" target="_blank"><span style="color: #0000EE;">CNH INDUSTRIAL BELGIUM NV</span></a>
     </p>
     <p class="explanation">
       - Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.<br> 
@@ -26,7 +26,7 @@ author_profile: true
     <h2 class="position-title">AI Intern</h2>
     <p class="dates-location">August 2023 – September 2023 · Bulgaria (Remote)</p>
     <p class="company-name">
-      <span class="blue-text">MLPS AD</span>
+      <span style="color: #0000EE;">MLPS AD</span>
     </p>
     <p class="explanation">
       - Developed a license plate recognition system as part of an internship, leveraging OpenCV for image processing and Tesseract OCR for text extraction to accurately detect and recognize alphanumeric characters.<br> 
@@ -45,7 +45,7 @@ author_profile: true
     <h2 class="position-title">Junior Big Data Engineer</h2>
     <p class="dates-location">December 2021 – August 2022 · Istanbul, Turkey</p>
     <p class="company-name">
-      <a href="https://nttdata-solutions.com/tr/" target="_blank">NTT DATA Business Solutions</a>
+      <a href="https://nttdata-solutions.com/tr/" target="_blank"><span style="color: #0000EE;">NTT DATA Business Solutions</span></a>
     </p>
     <p class="explanation">
       - Worked on the DMP project for ZF Global as a data engineering consultant.<br>
@@ -69,7 +69,7 @@ author_profile: true
     <h2 class="position-title">Candidate Engineer</h2>
     <p class="dates-location">March 2021 – December 2021 · Ankara, Turkey</p>
     <p class="company-name">
-      <a href="https://www.havelsan.com/en" target="_blank">HAVELSAN</a>
+      <a href="https://www.havelsan.com/en" target="_blank"><span style="color: #0000EE;">HAVELSAN</span></a>
     </p>
     <p class="explanation">
       - Contributed to the autonomous ground vehicle project (BARKAN), focusing on network design.<br>
@@ -88,7 +88,7 @@ author_profile: true
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2020 · Ankara, Turkey</p>
     <p class="company-name">
-      <a href="https://www.havelsan.com/en" target="_blank">HAVELSAN</a>
+      <a href="https://www.havelsan.com/en" target="_blank"><span style="color: #0000EE;">HAVELSAN</span></a>
     </p>
     <p class="explanation">
       - Worked at the Robotic and Autonomous Systems Department.<br>
@@ -108,7 +108,7 @@ author_profile: true
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2019 · Ankara, Turkey</p>
     <p class="company-name">
-      <a href="https://www.roketsan.com.tr/en" target="_blank">ROKETSAN</a>
+      <a href="https://www.roketsan.com.tr/en" target="_blank"><span style="color: #0000EE;">ROKETSAN</span></a>
     </p>
     <p class="explanation">
       - Worked at the Launching System Design Department.<br>
