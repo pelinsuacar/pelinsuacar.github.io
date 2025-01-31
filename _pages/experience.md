@@ -24,13 +24,13 @@ author_profile: true
 <div class="timeline-item">
   <div>
     <h2 class="position-title">AI Intern</h2>
-    <p class="dates-location">August 2023 – September 2023 · Bulgaria</p>
+    <p class="dates-location">August 2023 – September 2023 · Bulgaria (Remote)</p>
     <p class="company-name">
       <span class="blue-text">MLPS AD</span>
     </p>
     <p class="explanation">
       - Developed a license plate recognition system as part of an internship, leveraging OpenCV for image processing and Tesseract OCR for text extraction to accurately detect and recognize alphanumeric characters.<br> 
-      - Implemented a BRISQUE-based no-reference image quality assessment system using Python, leveraging OpenCV, SciPy, and libSVM to calculate quality scores and identify the best-quality images from a user-provided dataset.
+      - Implemented a BRISQUE-based no-reference image quality assessment system using Python, leveraging OpenCV, SciPy, and libSVM to calculate quality scores and identify the best-quality images from a user-provided dataset.<br>
       - Implemented object detection using a pre-trained SSD MobileNet model, enhanced with Grad-CAM for class activation visualization, and developed a color detection pipeline leveraging K-Means clustering and RGB matching for precise feature-based analysis.
     </p>
   </div>
