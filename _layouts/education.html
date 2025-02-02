@@ -106,43 +106,50 @@ layout: default
     margin: 5px 0 0 0;
     padding-left: 20px;
   }
-  @media (max-width: 768px) {
+ 
+ 
+/* Responsive Design */
+@media (max-width: 768px) {
   .page__title {
-    font-size: 1.5em; /* Smaller title font size on mobile */
+    font-size: 1.5em;
     margin-bottom: 20px;
   }
 
   .education {
-    width: 100%; /* Full width */
+    width: 100%;
     margin-left: 0;
   }
 
   .education-item {
-    flex-direction: column; /* Stack items vertically */
-    width: 100%; /* Make the items full width */
+    flex-direction: column; /* Stack items vertically on small screens */
+    width: 100%;
     padding: 10px;
   }
+
   .education-item a img {
-    width: 20px; /* Smaller images */
-    height: 20px;
+    width: 50px;
+    height: 50px;
+    position: relative; /* Allow the image to flow with the text */
+    margin-bottom: 10px; /* Add some space below the image */
   }
 
   .education-details {
     margin-left: 0;
-    margin-top: 10px; /* Add top margin for spacing */
+    padding-left: 0; /* Remove extra left padding */
+    margin-top: 10px; /* Add space above the text */
   }
 
   .education-header h3 {
-    font-size: 1em; /* Adjust font size for smaller screens */
+    font-size: 1em;
   }
 
   .education-header span {
     font-size: 0.8em;
-    position: relative;
+    position: relative; /* Ensure it stays within the container */
   }
 
   .relevant-courses {
-    font-size: 0.75em; /* Smaller text for courses */
+    font-size: 0.75em;
   }
 
   .relevant-courses ul {
@@ -150,22 +157,23 @@ layout: default
   }
 }
 
+/* For very small screens (phones in portrait mode) */
 @media (max-width: 480px) {
   .page__title {
-    font-size: 1.2em; /* Even smaller font size */
+    font-size: 1.2em;
   }
 
   .education-item {
-    padding: 8px; /* Reduce padding for smaller screens */
+    padding: 8px;
   }
+
   .education-item a img {
-    width: 10px; /* Even smaller images */
-    height: 10px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px; /* Extra space below the image */
   }
 
   .education-header h3 {
     font-size: 0.9em;
   }
 }
-</style>
-
