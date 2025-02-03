@@ -67,38 +67,12 @@ layout: default
     margin-bottom: 30px;
     position: relative;
     background: white;
+    margin-left: 30px; /* Move the box to the right of the line */
     padding: 20px;
     border: 1px solid #F3F4F6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
+    flex-direction: row;
   }
-
-  .timeline-item .content-wrapper {
-    display: flex;
-    align-items: center; /* Aligns logo and title horizontally */
-    gap: 20px;
-  }
-  
-  .timeline-item .company-logo {
-    width: 145px !important;
-    height: 60px !important;
-    object-fit: contain;
-  }
-  
-  .timeline-item .text-content {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .timeline-item .explanation {
-    margin-top: 10px;
-    text-align: left;
-    color: #1F2937;
-    font-size: 14px;
-    margin-left: 145px; /* Aligns with left edge of the logo */
-    max-width: 600px; /* Ensures text does not stretch too wide */
-  }
-
 
   /* Add shadow to the box when hovering over it */
   .timeline-item:hover {
@@ -115,6 +89,16 @@ layout: default
     height: 16px; /* Dot size */
     background: #4B5563; /* Dark grey for the dot */
     border-radius: 50%; /* Make it a circle */
+  }
+
+  /* Company logo */
+  .timeline-item .company-logo {
+    width: 145px !important;
+    height: 60px !important;
+    max-width: none;
+    max-height: none;
+    object-fit: none;
+    margin-right: 20px; /* Space between logo and text */
   }
 
   .timeline-item h2 {
@@ -139,8 +123,16 @@ layout: default
     color: #6B7280; /* Grey for dates and location */
   }
 
+
+  .timeline-item .explanation {
+    color: #1F2937; /* Black for the explanation */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+    flex-grow: 1; /* Let explanation take remaining space */
+    margin-left: 0; /* Ensure explanation is aligned from the left */
+  }
   .blue-text {
   color: #0000EE; /* Google link blue */
   }
 </style>
-
