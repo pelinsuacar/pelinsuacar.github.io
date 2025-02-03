@@ -20,7 +20,7 @@ layout: default
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
 
-    <div class="education">
+    <div class="education-section">
       {{ content }}
     </div>
   </div>
@@ -39,7 +39,9 @@ layout: default
     font-size: 2em; /* Adjust font size as needed */
     margin: 0 0 40px; /* Add sufficient margin above and below */
     }
-    .education {
+
+
+  .education-section {
     display: flex; 
     margin-left: 0; /* Remove any centering */
     max-width: 100%;  /* Ensure it adapts */
@@ -47,13 +49,8 @@ layout: default
     overflow: hidden;  /* Prevent layout shifts */
   }
 
-
-  .education-section {
-    width: auto; /* Allow it to grow to fit content */
-  }
-
   
-  .education-item {
+  .education-section-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Left-align items */
@@ -64,7 +61,7 @@ layout: default
     position: relative;
   }
 
-  .education-item a img {
+  .education-section-item a img {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -72,20 +69,20 @@ layout: default
     left: 15px;
     border-radius: 50%;
   }
-  .education-details {
+  .education-section-details {
     flex-grow: 1;
     margin-left: 120px;
   }
-  .education-header {
+  .education-section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .education-header h3 {
+  .education-section-header h3 {
     margin: 0;
     font-size: 1.2em;
   }
-  .education-header span {
+  .education-section-header span {
     font-size: 0.9em;
     color: #666;
     position: absolute;
