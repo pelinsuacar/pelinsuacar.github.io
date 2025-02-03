@@ -61,17 +61,23 @@ layout: default
     background: #D1D5DB; /* Light grey color for the line */
   }
 
-  .timeline-item {
+    .timeline-item {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; /* Align logo and text at the top */
     margin-bottom: 30px;
     position: relative;
     background: white;
-    margin-left: 30px; /* Move the box to the right of the line */
+    margin-left: 30px; /* Keep margin from the vertical line */
     padding: 20px;
     border: 1px solid #F3F4F6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-direction: row;
+  }
+  
+  .timeline-item .content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack text inside */
+    flex-grow: 1; /* Take remaining space */
   }
 
   /* Add shadow to the box when hovering over it */
@@ -99,6 +105,7 @@ layout: default
     max-height: none;
     object-fit: none;
     margin-right: 20px; /* Space between logo and text */
+    align-self: flex-start; /* Ensure logo stays at the top */
   }
 
   .timeline-item h2 {
