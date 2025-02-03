@@ -63,22 +63,29 @@ layout: default
 
     .timeline-item {
     display: flex;
-    align-items: flex-start; /* Align logo and text at the top */
+    align-items: flex-start;
     margin-bottom: 30px;
     position: relative;
     background: white;
-    margin-left: 30px; /* Keep margin from the vertical line */
+    margin-left: 30px;
     padding: 20px;
     border: 1px solid #F3F4F6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex-direction: row;
+    flex-direction: column; /* Stack items vertically */
   }
   
   .timeline-item .content-wrapper {
     display: flex;
-    flex-direction: column; /* Stack text inside */
-    flex-grow: 1; /* Take remaining space */
+    align-items: center; /* Aligns logo and title horizontally */
+    gap: 20px; /* Space between logo and text */
   }
+  
+  .timeline-item .company-logo {
+    width: 145px !important;
+    height: 60px !important;
+    object-fit: contain;
+  }
+
 
   /* Add shadow to the box when hovering over it */
   .timeline-item:hover {
@@ -95,17 +102,6 @@ layout: default
     height: 16px; /* Dot size */
     background: #4B5563; /* Dark grey for the dot */
     border-radius: 50%; /* Make it a circle */
-  }
-
-  /* Company logo */
-  .timeline-item .company-logo {
-    width: 145px !important;
-    height: 60px !important;
-    max-width: none;
-    max-height: none;
-    object-fit: none;
-    margin-right: 20px; /* Space between logo and text */
-    align-self: flex-start; /* Ensure logo stays at the top */
   }
 
   .timeline-item h2 {
