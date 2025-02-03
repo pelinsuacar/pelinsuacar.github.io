@@ -8,7 +8,7 @@ author_profile: true
   <a href="https://www.cnh.com" target="_blank">
     <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">Master’s Thesis Student</h2>
     <p class="dates-location">March 2024 – December 2024 · Belgium</p>
     <p class="company-name">
@@ -22,7 +22,7 @@ author_profile: true
 </div>
 
 <div class="timeline-item">
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">AI Intern</h2>
     <p class="dates-location">August 2023 – September 2023 · Bulgaria (Remote)</p>
     <p class="company-name">
@@ -41,7 +41,7 @@ author_profile: true
   <a href="https://nttdata-solutions.com/tr/" target="_blank">
     <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">Junior Big Data Engineer</h2>
     <p class="dates-location">December 2021 – August 2022 · Istanbul, Turkey</p>
     <p class="company-name">
@@ -65,7 +65,7 @@ author_profile: true
   <a href="https://www.havelsan.com/en" target="_blank">
     <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">Candidate Engineer</h2>
     <p class="dates-location">March 2021 – December 2021 · Ankara, Turkey</p>
     <p class="company-name">
@@ -84,7 +84,7 @@ author_profile: true
   <a href="https://www.havelsan.com/en" target="_blank">
     <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2020 · Ankara, Turkey</p>
     <p class="company-name">
@@ -104,7 +104,7 @@ author_profile: true
   <a href="https://www.roketsan.com.tr/en" target="_blank">
     <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
   </a>
-  <div>
+  <div class="content-wrapper">
     <h2 class="position-title">Summer Intern</h2>
     <p class="dates-location">Summer 2019 · Ankara, Turkey</p>
     <p class="company-name">
