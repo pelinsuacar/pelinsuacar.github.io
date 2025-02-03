@@ -41,7 +41,11 @@ layout: default
     }
     .education {
     margin-left: 0; /* Remove any centering */
+    max-width: 100%;  /* Ensure it adapts */
+    width: auto;       /* Avoid fixed widths */
+    overflow: hidden;  /* Prevent layout shifts */
   }
+
 
   .education-section {
     width: auto; /* Allow it to grow to fit content */
