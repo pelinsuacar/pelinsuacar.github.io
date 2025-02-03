@@ -5,7 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 
-<div class="education">
+<div class="education-section">
 
      <div class="education-item">
         <a href="https://corsi.unibo.it/2cycle/artificial-intelligence" target="_blank">
