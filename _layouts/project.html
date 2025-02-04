@@ -193,40 +193,37 @@ layout: default2
     color: white;
   }
 @media (max-width: 768px) {
-  /* Ensure the menu bar stays aligned */
-  .menu-bar {
-    width: 100%; /* Make sure it's full-width */
-    left: 0; /* Prevent shifting */
-  }
-
-  /* Fix the projects container alignment */
-  .projects-container {
-    width: 100%;
-    margin-left: 0px; /* Reset left margin */
-    padding: 0 10px; /* Ensure some spacing */
-  }
-
-  /* Fix the projects grid to be one-column */
   .projects {
     width: 100%;
-    margin-left: 0px; /* Reset left margin */
-    grid-template-columns: 1fr; /* One column for mobile */
-    padding: 0 10px; /* Ensure padding instead of margin */
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px; /* Reduce spacing */
+    padding-right: 10px; /* Ensure no overflow */
   }
 
-  /* Fix category bar layout */
+  .projects-container {
+    width: 100%;
+    margin: 20px 0; /* Maintain spacing */
+  }
+
   .category-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Keep it left-aligned */
-    padding: 10px 0;
-    gap: 5px;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: flex-start; /* Keep left-aligned */
+    gap: 5px; /* Reduce spacing */
   }
 
-  /* Adjust category button size */
   .category-button {
     font-size: 10px;
-    padding: 5px 8px;
+    padding: 3px 6px; /* Reduce button size */
+  }
+
+  .project-item {
+    width: 90%;
+    max-width: 100%; /* Ensure it doesn’t exceed the screen width */
+  }
+
+  .page__title {
+    font-size: 1.5em; /* Adjust title size */
+    text-align: left; /* Keep left-aligned */
   }
 }
 
