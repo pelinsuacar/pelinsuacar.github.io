@@ -192,4 +192,42 @@ layout: default2
     background-color: #3B82F6;
     color: white;
   }
+  @media (max-width: 768px) {
+  .projects {
+    width: 100%;
+    margin-left: 0; /* Remove extra left margin */
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px; /* Reduce spacing */
+    padding: 0 10px; /* Add padding to avoid touching screen edges */
+  }
+
+  .projects-container {
+    width: 100%;
+    padding: 0 10px; /* Ensure proper spacing */
+    margin: 20px auto;
+  }
+
+  .category-bar {
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: center; /* Center align buttons */
+    gap: 5px; /* Reduce spacing */
+  }
+
+  .category-button {
+    font-size: 10px;
+    padding: 3px 6px; /* Reduce button size */
+  }
+
+  .project-item {
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn’t exceed the screen width */
+  }
+
+  .page__title {
+    font-size: 1.5em; /* Adjust title size */
+    text-align: center; /* Center align title */
+    padding-left: 0; /* Remove left padding */
+  }
+}
+
   </style>
