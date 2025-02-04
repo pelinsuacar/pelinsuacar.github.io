@@ -192,23 +192,24 @@ layout: default2
     background-color: #3B82F6;
     color: white;
   }
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .projects {
     width: 100%;
-    margin-left: 0; /* Remove extra left margin */
+    margin-left: 20px; /* Keep it left-aligned */
     grid-template-columns: 1fr; /* Single column layout */
     gap: 10px; /* Reduce spacing */
-    padding: 0 10px; /* Add padding to avoid touching screen edges */
+    padding-right: 10px; /* Ensure no overflow */
   }
 
   .projects-container {
     width: 100%;
-    padding: 0 10px; /* Ensure proper spacing */
-    margin: 20px auto;
+    padding-left: 20px; /* Keep left alignment */
+    margin: 20px 0; /* Maintain spacing */
   }
 
   .category-bar {
     flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: flex-start; /* Keep left-aligned */
   }
 
   .category-button {
@@ -217,14 +218,14 @@ layout: default2
   }
 
   .project-item {
-    width: 100%;
+    width: 90%;
     max-width: 100%; /* Ensure it doesn’t exceed the screen width */
   }
 
   .page__title {
     font-size: 1.5em; /* Adjust title size */
-    text-align: left; /* Center align title */
-    padding-left: 0; /* Remove left padding */
+    text-align: left; /* Keep left-aligned */
+    padding-left: 20px; /* Ensure proper spacing */
   }
 }
 
