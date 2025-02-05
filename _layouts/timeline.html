@@ -44,6 +44,7 @@ layout: default
 }
 
   .timeline {
+    position: relative;
     list-style: none;
     max-width: 800px; 
     width: 100%;
@@ -52,6 +53,7 @@ layout: default
   /* Vertical line on the left of the timeline */
   .timeline::before {
     content: '';
+    position: absolute;
     left: 0px; /* Position the vertical line */
     width: 2px; /* Line thickness */
     height: 100%;
@@ -80,6 +82,7 @@ layout: default
   .timeline-item::before {
     content: '';
     position: absolute;
+    top: 20 px;
     left: -38px; /* Position the dot outside the box, aligning with the line */
     width: 16px; /* Dot size */
     height: 16px; /* Dot size */
