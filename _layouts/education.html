@@ -39,6 +39,7 @@ layout: default
     color: dark grey;
     font-size: 2em; /* Adjust font size as needed */
     margin: 70 0 40px; /* Add sufficient margin above and below */
+    padding-top: 20px; /* Add padding in case of header overlap */
     }
 
     .education {
@@ -51,20 +52,23 @@ layout: default
 
 
     .education-section {
-      width: auto;       /* Avoid fixed widths */
+    max-width: 800px; 
+    width: 100%;
     }
   
-    
+
     .education-item {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; /* Left-align items */
-      margin-bottom: 20px;
-      padding: 15px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      position: relative;
-    }
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    position: relative;
+    background: white;
+    margin-left: 30px; /* Move the box to the right of the line */
+    padding: 20px;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+  }
   
     .education-item a img {
       width: 100px;
