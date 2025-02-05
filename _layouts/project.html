@@ -192,51 +192,59 @@ layout: default2
     background-color: #3B82F6;
     color: white;
   }
-@media (max-width: 768px) {
-  body {
-    background-color: white; 
-    font-family: Arial, sans-serif;
-  }
-  
-  .projects {
-    width: 100%;
-    grid-template-columns: 1fr; /* Single column layout */
-    gap: 10px; /* Reduce spacing */
-    margin-left: 0px; /* Reset left margin */
-  }
-
+  @media (max-width: 768px) {
+  /* Ensure the main container aligns properly */
   .projects-container {
     width: 100%;
-    margin-left: 0px; /* Reset left margin */
+    padding-left: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents */
   }
 
+  /* Fix sidebar shifting */
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust category bar */
   .category-bar {
-    flex-wrap: wrap; /* Allow buttons to wrap */
-    justify-content: flex-start; /* Keep left-aligned */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
   }
 
   .category-button {
     font-size: 10px;
-    padding: 3px 6px; /* Reduce button size */
+    padding: 3px 6px;
+  }
+
+  /* Ensure projects grid stays aligned */
+  .projects {
+    width: 100%;
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-item {
     width: 90%;
-    max-width: 100%; /* Ensure it doesn’t exceed the screen width */
+    max-width: 100%;
   }
 
+  /* Ensure the title remains visible */
   .page__title {
-    font-size: 1.5em; /* Adjust title size */
-    text-align: left; /* Keep left-aligned */
-  }
-    .sidebar {
-    width: 100%; /* Full width on mobile */
-    position: relative; /* Ensures it does not float */
-    margin-left: 0px; /* Reset left margin */
-      
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 0;
   }
 }
-}
 
-
-  </style>
+</style>
