@@ -154,8 +154,17 @@ layout: default
 @media (max-width: 1023px) {
   #main {
     flex-direction: column; /* Ensures sidebar stacks properly */
-    padding-top: 0px;
+    padding-top: 50px;
   }
+  .page__title {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 2em; /* Adjust font size */
+  font-weight: bold;
+  color: dark grey;
+  margin: 0px 0 20px; /* Add sufficient margin above and below */
+  padding-top: 10px; /* Add padding in case of header overlap */
+}
 }
 
 
