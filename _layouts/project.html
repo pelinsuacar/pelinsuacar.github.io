@@ -15,12 +15,9 @@ layout: default2
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <!-- Container for Title and Category Bar -->
-  <div class="projects">
-    <!-- Title -->
+<div class="projects-wrapper">
+  <div class="projects-container">
     <h1 class="page__title">{{ page.title }}</h1>
-
-    <!-- Category Bar -->
     <div class="category-bar">
       <button class="category-button active" data-category="all">All</button>
       <button class="category-button" data-category="nlp">NLP</button>
@@ -31,10 +28,14 @@ layout: default2
       <button class="category-button" data-category="iot">IoT</button>
       <button class="category-button" data-category="parallel-computing">Parallel Computing</button>
     </div>
+  </div>
+
+  <div class="projects">
     <div class="projects-grid">
       {{ content }}
     </div>
   </div>
+</div>
 
 <style>
 
@@ -45,18 +46,6 @@ layout: default2
       padding: 0px;
     }
 
-    /* Projects Grid */
-    .projects {
-      width: 800px;
-      margin: 0px auto; /* Center the project grid */
-      justify-content: center;
-      display: grid; /* Use CSS Grid */
-      grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
-      gap: 20px; /* Add space between items */
-      margin-left: 180px; /* Move it 20px to the right */
-      align-items: stretch;
-    }
-  
     .page__title {
     text-align: left;
     margin-left: 20px;
@@ -67,7 +56,24 @@ layout: default2
     margin: 0 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
     }
+  .projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers everything */
+  max-width: 800px; /* Keep everything aligned with the project grid */
+  width: 100%;
+  margin: 0 auto; /* Centers the wrapper */
+  padding: 0 10px; /* Adds some spacing */
+}
 
+
+  .projects-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: column; /* Arrange title and category bar vertically */
+    flex: 1; /* Takes the remaining space */
+    width: 800px;
+    margin: 20px auto;
+  }
 
 
   .category-bar {
@@ -95,16 +101,27 @@ layout: default2
     white-space: normal; /* Allow text wrapping */
     word-break: break-word; /* Prevents long words from causing extra width */
   }
-    
-     
+
+
   .category-button:hover,
   .category-button.active {
     background-color: #3B82F6;
     color: white;
     border-color: #3B82F6;
   }
+/* Projects Grid */
+  .projects {
+    width: 800px;
+    margin: 0px auto; /* Center the project grid */
+    justify-content: center;
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
+    gap: 20px; /* Add space between items */
+    margin-left: 180px; /* Move it 20px to the right */
+    align-items: stretch;
+  }
 
-  
+
   /* Project Items */
   .project-item {
     background: white;
@@ -116,37 +133,37 @@ layout: default2
     flex-direction: column;
     align-items: center;
     height: 100%;
-    
+
   }
 
-  
+
   .project-item img {
     width: 100%;
     object-fit: cover;
     height: auto;
   }
-  
+
   .project-content {
     padding: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1; /* Ensures the content takes available space */
   }
-  
+
   .project-content h2 {
     margin: 0;
     font-size: 16px;
     font-weight: bold;
     color: #1F2937; /* Dark grey */
   }
-  
+
   .project-content p {
     margin: 10px 0;
     font-size: 12px;
     text-align: justify;
     color: #6B7280; /* Grey */
   }
-  
+
   .project-content a {
     display: inline-block;
     margin-top: auto; /* Push the link button to the bottom */
@@ -160,14 +177,14 @@ layout: default2
     text-decoration: none;
     transition: all 0.3s ease;
   }
-  
+
   .project-buttons {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
     margin-top: auto; /* Pushes buttons to the bottom */
   }
-  
+
   .project-buttons a {
     display: inline-block;
     padding: 2px 4px;
@@ -181,7 +198,7 @@ layout: default2
     transition: all 0.3s ease;
     text-align: center;
   }
-  
+
   .project-buttons a:hover {
     background-color: #3B82F6;
     color: white;
