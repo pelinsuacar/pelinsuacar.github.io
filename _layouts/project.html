@@ -42,29 +42,35 @@ layout: default2
 </div>
 
 <style>
+
+<style>
     body {
       font-family: Arial, sans-serif;
       margin: 0px;
       padding: 0px;
     }
 
+    #main {
+    flex-direction: column; /* Ensures sidebar stacks properly */
+    padding-top: 70px;
+    }
+  
+    .page__title {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: dark grey;
+    font-size: 2em; /* Adjust font size as needed */
+    margin: 70 0 40px; /* Add sufficient margin above and below */
+    padding-top: 20px; /* Add padding in case of header overlap */
+    }
+  
   /* Container to hold the title and category bar */
   .projects-container {
     display: flex; /* Use flexbox for horizontal alignment */
     flex-direction: column; /* Arrange title and category bar vertically */
-    width: 750px;
-    margin: 20px auto;
-  }
-
-    /* Ensure the title is fully visible with proper spacing */
-  .page__title {
-    text-align: left;
-    font-family: Arial, sans-serif;
-    font-size: 2em; /* Adjust font size */
-    font-weight: bold;
-    color: dark grey;
-    margin: 70px 0 40px; /* Add sufficient margin above and below */
-    padding-top: 20px; 
+   max-width: 800px; 
+    width: 100%;
   }
 
   .category-bar {
@@ -103,8 +109,8 @@ layout: default2
   
   /* Projects Grid */
   .projects {
-    width: 750px;
-    margin: 0px auto; /* Center the project grid */
+    max-width: 800px; 
+    width: 100%;
     justify-content: center;
     display: grid; /* Use CSS Grid */
     grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
@@ -124,6 +130,7 @@ layout: default2
     flex-direction: column;
     align-items: center;
     height: 100%;
+    
   }
   
   .project-item img {
