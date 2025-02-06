@@ -14,10 +14,12 @@ author_profile: true
       <a href="https://www.cnh.com" target="_blank"><span style="color: #0000EE;">CNH INDUSTRIAL BELGIUM NV</span></a>
     </p>
     <p class="dates-location">March 2024 – December 2024 · Belgium</p>
-    <u1 class="explanation">
-      <li>Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.</li>
-      <li>Evaluated state-of-the-art models (OWLv2 and YOLO-World) using different query embedding techniques (CLIP, DINOv2) to asses kernel detection performance.</li>
-    </u1>
+    <p class="explanation">
+      <u1>
+        <li>Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.</li>
+        <li>Evaluated state-of-the-art models (OWLv2 and YOLO-World) using different query embedding techniques (CLIP, DINOv2) to asses kernel detection performance.</li>
+      </u1>
+    </p>
   </div>
 </div>
 
