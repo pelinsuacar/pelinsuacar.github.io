@@ -150,15 +150,13 @@ layout: default
   margin: 0px 0 20px; /* Add sufficient margin above and below */
   padding-top: 10px; /* Add padding in case of header overlap */
 }
-/* Company logo */
 .timeline-item .company-logo {
-  width: 72px !important;
-  height: 30px !important;
-  max-width: none;
-  max-height: none;
-  object-fit: none;
-  margin-right: 10px; /* Space between logo and text */
-}
+    width: 72px !important;
+    height: auto !important; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it resizes proportionally */
+    max-height: 30px; /* Restrict maximum height without cropping */
+    object-fit: contain; /* Ensures the entire image fits within the space */
+  }
 }
 @media (max-width: 1023px) {
   #main {
@@ -166,12 +164,11 @@ layout: default
     padding-top: 50px;
   }
   .timeline-item .company-logo {
-  width: 100px !important;
-  height: 41px !important;
-  max-width: none;
-  max-height: none;
-  object-fit: none;
-  margin-right: 15px; /* Space between logo and text */
+    width: 100px !important;
+    height: auto !important; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it resizes proportionally */
+    max-height: 41px; /* Restrict maximum height without cropping */
+    object-fit: contain; /* Ensures the entire image fits within the space */
 }
   .page__title {
   text-align: left;
