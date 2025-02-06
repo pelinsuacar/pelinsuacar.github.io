@@ -150,11 +150,21 @@ layout: default
   margin: 0px 0 20px; /* Add sufficient margin above and below */
   padding-top: 10px; /* Add padding in case of header overlap */
 }
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    position: relative;
+    background: white;
+    margin-left: 30px; /* Move the box to the right of the line */
+    padding: 10px;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+  }
 .timeline-item .company-logo {
-    width: 72px !important;
+    width: 100px !important;
     height: auto !important; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it resizes proportionally */
-    max-height: 30px; /* Restrict maximum height without cropping */
     object-fit: contain; /* Ensures the entire image fits within the space */
   }
 }
@@ -166,9 +176,19 @@ layout: default
   .timeline-item .company-logo {
     width: 100px !important;
     height: auto !important; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it resizes proportionally */
-    max-height: 41px; /* Restrict maximum height without cropping */
     object-fit: contain; /* Ensures the entire image fits within the space */
+}
+  .timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  position: relative;
+  background: white;
+  margin-left: 30px; /* Move the box to the right of the line */
+  padding: 15px;
+  border: 1px solid #F3F4F6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
 }
   .page__title {
   text-align: left;
