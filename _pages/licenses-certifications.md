@@ -16,6 +16,10 @@ author_profile: true
     margin: 0px 0 40px; /* Add sufficient margin above and below */
     padding-top: 20px; /* Add padding in case of header overlap */
   }
+  @media (max-width: 768px) {
+    .page__title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
 
 </style>
 
