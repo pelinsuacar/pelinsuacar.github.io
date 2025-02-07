@@ -255,6 +255,17 @@ layout: default2
   }
 
 @media (max-width: 768px) {
+
+  .projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start; /* Centers everything */
+  max-width: 500px; /* Keep everything aligned with the project grid */
+  width: 100%;
+  margin-left: 0; /* No left margin */
+  padding-left: 0; /* No padding */
+}
    .projects-container {
     max-width: 500px;
     width: 100%;
@@ -266,6 +277,7 @@ layout: default2
   }
 
   .projects {
+    max-width: 500px;
     width: 100%;
     margin: 0; /* Ensure no centering margin */
     padding: 0;
