@@ -36,7 +36,6 @@ author_profile: true
      
      <div class="education-item">
         <a href="https://ee.bilkent.edu.tr/en/" target="_blank">
-            <img src="../images/bilkent logo.jpg" alt="University Logo">
         </a>
         <div class="education-details">
             <div class="education-header">
