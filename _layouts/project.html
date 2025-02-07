@@ -42,10 +42,9 @@ layout: default2
 <style>
 
     #main {
-    display: grid;
-    grid-template-columns: auto 1fr; /* Sidebar auto width, projects take remaining space */
-    gap: 20px; /* Space between sidebar and projects */
-    }
+   display: flex;
+  flex-direction: row; /* Aligns sidebar and content side by side */
+  }
 
   body {
     font-family: Arial, sans-serif;
@@ -64,17 +63,18 @@ layout: default2
   .projects-wrapper {
   display: flex;
   flex-direction: column;
+  flex: 1; /* Takes the remaining space */
   position: relative;
   align-items: center; /* Centers everything */
   max-width: 800px; /* Keep everything aligned with the project grid */
   width: 100%;
+ margin-left: 20px;
 }
 
 
   .projects-container {
     display: flex; /* Use flexbox for horizontal alignment */
     flex-direction: column; /* Arrange title and category bar vertically */
-    flex: 1; /* Takes the remaining space */
     width: 800px;
     margin: 20px auto;
   }
