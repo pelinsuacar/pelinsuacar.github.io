@@ -257,6 +257,7 @@ layout: default2
   @media (max-width: 768px) {
   /* Ensure the main container aligns properly */
   .projects-container {
+    max-width: 500px;
     width: 100%;
     padding-left: 0px;
     margin: 0px 0;
@@ -285,6 +286,7 @@ layout: default2
 
   /* Ensure projects grid stays aligned */
   .projects {
+    max-width: 500px;
     width: 100%;
     margin-left: 0;
     grid-template-columns: 1fr;
@@ -292,7 +294,7 @@ layout: default2
     padding-right: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 
   .project-item {
@@ -307,5 +309,16 @@ layout: default2
     padding-left: 0;
   }
 }
+ @media (max-width: 550px) {
+  /* Ensure the main container aligns properly */
+  .projects-container {
+    width: 100%;
+    padding-left: 0px;
+    margin: 0px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Center contents */
+  }
+ }
 
 </style>
