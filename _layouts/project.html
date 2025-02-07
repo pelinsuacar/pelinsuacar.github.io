@@ -41,29 +41,33 @@ layout: default2
 
 <style>
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0px;
-      padding: 0px;
+    #main {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Sidebar auto width, projects take remaining space */
+    gap: 20px; /* Space between sidebar and projects */
     }
 
-    .page__title {
-    text-align: left;
+  body {
     font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: dark grey;
-    font-size: 2em; /* Adjust font size as needed */
-    margin: 0 0 40px; /* Add sufficient margin above and below */
-    }
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .page__title {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: dark grey;
+  font-size: 2em; /* Adjust font size as needed */
+  margin: 0 0 40px; /* Add sufficient margin above and below */
+  }
   .projects-wrapper {
   display: flex;
   flex-direction: column;
-  flex: 1;
   position: relative;
   align-items: center; /* Centers everything */
   max-width: 800px; /* Keep everything aligned with the project grid */
   width: 100%;
-  margin-left: 20px;
 }
 
 
