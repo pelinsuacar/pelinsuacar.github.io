@@ -65,7 +65,6 @@ layout: default2
   max-width: 800px; /* Keep everything aligned with the project grid */
   width: 100%;
   margin-left: 270px;
-  padding-top: 70px;
 }
 
 
@@ -226,6 +225,35 @@ layout: default2
   align-items: stretch;
 }
    }
+
+  @media (max-width: 924px) {
+  .projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center; /* Centers everything */
+  max-width: 700px; /* Keep everything aligned with the project grid */
+  width: 100%;
+  margin-left: 0px;
+}
+.projects-container {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: column; /* Arrange title and category bar vertically */
+  flex: 1; /* Takes the remaining space */
+  width: 700px;
+  margin: 20px auto;
+}
+.projects {
+  width: 700px;
+  margin: 0px auto; /* Center the project grid */
+  justify-content: center;
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
+  gap: 20px; /* Add space between items */
+  align-items: stretch;
+}
+  }
+
   @media (max-width: 768px) {
   /* Ensure the main container aligns properly */
   .projects-container {
