@@ -9,7 +9,6 @@ author_profile: true
 
      <div class="education-item">
         <a href="https://corsi.unibo.it/2cycle/artificial-intelligence" target="_blank">
-            <img src="../images/unibo logo.png" alt="University Logo">
         </a>
         <div class="education-details">
             <div class="education-header">
