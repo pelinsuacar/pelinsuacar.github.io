@@ -33,7 +33,7 @@ redirect_from:
   }
   .content-container {
     text-align: justify; /* Justify-align the About content */
-    font-size: 11px;
+    font-size: 12px;
   }
 </style>
 
