@@ -19,7 +19,11 @@ author_profile: true
   @media (max-width: 768px) {
     .page__title {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 20px;}
+    body {
+    font-size: 13px; /* Adjust the size as needed */
+  }
+  }
 
 </style>
 
