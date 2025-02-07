@@ -208,5 +208,44 @@ layout: default
 }
 }
 
+@media (max-width: 768px) {
+    .page__title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+    .timeline-item h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B5563; /* Grey color for position title */
+  }
+
+   .timeline-item .company-name {
+    font-size: 12px;
+    color: #0000EE !important;
+    margin-top: 0px; /* Remove space above */
+    margin-bottom: 0px; /* Remove space below */
+  }
+
+  .timeline-item .dates-location {
+    font-size: 10px;
+    margin-top: 0px; /* Remove space above */
+    color: #6B7280; /* Grey for dates and location */
+  }
+
+
+  .timeline-item .explanation {
+    color: #1F2937; /* Black for the explanation */
+    font-size: 10px;
+    margin-top: 10px;
+    width: 100%
+    text-align: justify;
+    list-style-type: disc;
+    flex-grow: 1; /* Let explanation take remaining space */
+    margin-left: 0; /* Ensure explanation is aligned from the left */
+    margin: 0; /* Remove extra spacing */
+  }
+
 
 </style>
