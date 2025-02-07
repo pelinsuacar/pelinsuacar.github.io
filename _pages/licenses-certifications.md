@@ -17,12 +17,14 @@ author_profile: true
     padding-top: 20px; /* Add padding in case of header overlap */
   }
   @media (max-width: 768px) {
+    body {
+    font-size: 13px; /* Adjust the size as needed */
+    font-family: Arial, sans-serif;
+  }
     .page__title {
     font-size: 1.5em;
     margin-bottom: 20px;}
-    body {
-    font-size: 13px; /* Adjust the size as needed */
-  }
+
   }
 
 </style>
