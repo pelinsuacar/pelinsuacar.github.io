@@ -209,6 +209,22 @@ layout: default2
   width: 100%;
   margin-left: 200px;
 }
+.projects-container {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: column; /* Arrange title and category bar vertically */
+  flex: 1; /* Takes the remaining space */
+  width: 700px;
+  margin: 20px auto;
+}
+.projects {
+  width: 700px;
+  margin: 0px auto; /* Center the project grid */
+  justify-content: center;
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
+  gap: 20px; /* Add space between items */
+  align-items: stretch;
+}
    }
   @media (max-width: 768px) {
   /* Ensure the main container aligns properly */
