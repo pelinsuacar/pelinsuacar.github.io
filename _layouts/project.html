@@ -58,12 +58,13 @@ layout: default2
     margin: 0 0 40px; /* Add sufficient margin above and below */
     }
   .projects-wrapper {
+  margin: 0 auto; /* Centers it */
+  padding-left: 0; /* Ensures no shift */
   display: flex;
   flex-direction: column;
   position: relative;
   max-width: 800px; /* Keep everything aligned with the project grid */
   width: 100%;
-  margin-left: 270px;
 }
 
 
@@ -107,7 +108,7 @@ layout: default2
 /* Projects Grid */
   .projects {
     width: 800px; /* Keep everything aligned with the project grid */
-    gap: 5px;
+    gap: 10px;
     margin: 0px auto; /* Center the project grid */
     display: grid; /* Use CSS Grid */
     grid-template-columns: repeat(2, 1fr); /* Create flexible two columns */
