@@ -62,7 +62,7 @@ layout: default2
   align-items: center; /* Centers everything */
   max-width: 800px; /* Keep everything aligned with the project grid */
   width: 100%;
-  margin-left: 280px;
+  margin-left: 270px;
 }
 
 
@@ -199,6 +199,17 @@ layout: default2
     background-color: #3B82F6;
     color: white;
   }
+   @media (max-width: 1200px) {
+  .projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center; /* Centers everything */
+  max-width: 800px; /* Keep everything aligned with the project grid */
+  width: 100%;
+  margin-left: 220px;
+}
+   }
   @media (max-width: 768px) {
   /* Ensure the main container aligns properly */
   .projects-container {
