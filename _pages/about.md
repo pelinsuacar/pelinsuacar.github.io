@@ -26,6 +26,15 @@ redirect_from:
   .content-container p {
     margin-bottom: 0; /* Removes extra space between sections */
   }
+  @media (max-width: 768px) {
+    .page__title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  .content-container {
+    text-align: justify; /* Justify-align the About content */
+    font-size: 11px;
+  }
 </style>
 
 <div style="display: flex; justify-content: center;">
