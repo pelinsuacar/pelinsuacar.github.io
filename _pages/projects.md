@@ -72,7 +72,7 @@ permalink: /projects/
       <h2>Personal Identifiable Information Detection in Student Writing</h2>
       <p>Developed and evaluated NER and LLM-based models for PII detection in student essays, achieving a top F5 score of 0.743 with a spaCy-based NER approach.</p>
       <div class="project-buttons">
-        <a href="        <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/NLP_PW_Pelin_Calin.pdf&embedded=true" target="_blank">View Report (PDF)</a>">View Report (PDF)</a>
+       <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/pelinsuacar/pelinsuacar.github.io/master/files/NLP_PW_Pelin_Calin.pdf&embedded=true" target="_blank">View Report (PDF)</a>
       </div>
     </div>
   </div>
