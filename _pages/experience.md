@@ -5,9 +5,6 @@ permalink: /experience/
 author_profile: true
 ---
 <div class="timeline-item">
-  <a href="https://www.cnh.com" target="_blank">
-    <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
-  </a>
   <div class="content-wrapper">
     <h2 class="position-title">Master’s Thesis Student</h2>
     <p class="company-name">
@@ -18,6 +15,9 @@ author_profile: true
         <li>Conducted research on Zero-Shot and Open-Vocabulary Object Detection (ZSOD and OSD) for agricultural applications, focusing on crop kernel detection to enable real-time grain loss assessment.</li>
         <li>Evaluated state-of-the-art models (OWLv2 and YOLO-World) using different query embedding techniques (CLIP, DINOv2) to asses kernel detection performance.</li>
       </u1>
+     <a href="https://www.cnh.com" target="_blank">
+      <img src="../images/cnh.jpg" alt="CNH Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+     </a>
   </div>
 </div>
 
@@ -38,9 +38,6 @@ author_profile: true
 
 
 <div class="timeline-item">
-  <a href="https://nttdata-solutions.com/tr/" target="_blank">
-    <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
-  </a>
   <div class="content-wrapper">
     <h2 class="position-title">Junior Big Data Engineer</h2>
     <p class="company-name">
@@ -56,15 +53,15 @@ author_profile: true
       <li>Implementing important data engineering concepts such as row level security, multi hop architecture, fault tolerant data ingestion, test driven development, proper documentation and version control.</li>
       <li>Collaborated effectively with a multinational team & customer through pair programming, knowledge transfer and sprint DEMO sessions.</li>
     </u1>
+    <a href="https://nttdata-solutions.com/tr/" target="_blank">
+      <img src="../images/ntt.png" alt="NTT DATA Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+    </a>
   </div>
 </div>
 
 ---
 
 <div class="timeline-item">
-  <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
-  </a>
   <div class="content-wrapper">
     <h2 class="position-title">Candidate Engineer</h2>
     <p class="company-name">
@@ -75,15 +72,15 @@ author_profile: true
       <li>Contributed to the autonomous ground vehicle project (BARKAN), focusing on network design.</li>
       <li>Implemented VLAN tagging, GRE tunnel, and OSPF protocol on Linux using Quagga software.</li>
     </u1>
+    <a href="https://www.havelsan.com/en" target="_blank">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+  </a>
   </div>
 </div>
 
 ---
 
 <div class="timeline-item">
-  <a href="https://www.havelsan.com/en" target="_blank">
-    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
-  </a>
   <div class="content-wrapper">
     <h2 class="position-title">Summer Intern</h2>
     <p class="company-name">
@@ -95,15 +92,15 @@ author_profile: true
       <li>Implemented OSPF protocol for mesh networks on Cisco Packet Tracer.</li>
       <li>Attended training sessions on project management, test engineering, and cyber security.</li>
     </u1>
+     <a href="https://www.havelsan.com/en" target="_blank">
+    <img src="../images/havelsan2.png" alt="HAVELSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+  </a>
   </div>
 </div>
 
 ---
 
 <div class="timeline-item">
-  <a href="https://www.roketsan.com.tr/en" target="_blank">
-    <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
-  </a>
   <div class="content-wrapper">
     <h2 class="position-title">Summer Intern</h2>
     <p class="company-name">
@@ -114,5 +111,8 @@ author_profile: true
       <li>Worked at the Launching System Design Department.</li>
       <li>Implemented UART communication protocol using VHDL on Vivado and tested on PicoZed FMC Carrier Card.</li>
     </u1>
+    <a href="https://www.roketsan.com.tr/en" target="_blank">
+    <img src="../images/roketsan.jpg" alt="ROKETSAN Logo" class="company-logo" style="width: 145px; height: 60px; !important;">
+  </a>
   </div>
 </div>
